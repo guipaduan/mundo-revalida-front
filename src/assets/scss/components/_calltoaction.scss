@@ -1,0 +1,64 @@
+.global_cta {
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    position: relative;
+    width: fit-content;
+    min-height: 50px;
+    line-height: initial;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 35px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 100px;
+    background: rgb(184, 135, 23);
+    background: linear-gradient(90deg, rgba(184, 135, 23, 1) 0%, rgba(216, 183, 6, 1) 70%);
+    transition: .15s all linear;
+
+    &:hover {
+        box-shadow: 0 20px 25px -10px rgba(0, 0, 0, 0.15);
+        transform: translateY(-1px);
+    }
+
+    &:active {
+        box-shadow: none;
+        transform: none;
+    }
+
+    &_full {
+        width: 100%;
+    }
+
+    &_large {
+        width: 100%;
+        max-width: 360px;
+    }
+
+    &_disable {
+        color: #96989A;
+        text-align: left;
+        cursor: not-allowed;
+        background: #eee;
+
+        &:after {
+            content: none;
+        }
+
+        &:hover {
+            box-shadow: none;
+            transform: none;
+        }
+    }
+
+    &_red {
+        color: #fff;
+        font-weight: 600;
+        background: #FF252D;
+    }
+}

@@ -1,0 +1,54 @@
+& > div {
+	margin-top: 25px;
+}
+
+h2 {
+	font-weight: 700;
+	text-transform: uppercase;
+	line-height: initial;
+	display: block;
+	margin: 15px 0 0;
+}
+
+p {
+	position: relative;
+	display: block;
+	margin: 15px 0 0;
+
+	&:first-child {
+		margin-top: 0;
+	}
+}
+
+a:not(.global_cta) {
+	font-weight: 700;
+	text-decoration: underline;
+}
+
+strong {
+	font-weight: 700;
+}
+
+img {
+	position: relative;
+	// width: 100% !important;
+	// max-width: 1366px !important;
+	max-width: 100% !important;
+	height: auto !important;
+	display: block;
+	margin: 25px auto 0;
+}
+
+.wp-caption {
+	position: relative;
+	width: 100% !important;
+	margin: auto;
+
+	p {
+		font-size: 14px;
+		font-style: italic;
+		text-align: center;
+		display: block;
+		margin: 0;
+	}
+}

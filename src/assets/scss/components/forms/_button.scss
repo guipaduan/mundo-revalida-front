@@ -1,0 +1,39 @@
+button,
+input[type=button],
+input[type=submit] {
+	color: #fff;
+	font-size: 14px;
+	font-weight: 600;
+	text-transform: uppercase;
+	position: relative;
+	width: fit-content;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 0 20px;
+	cursor: pointer;
+	outline: none;
+	border: none;
+	background-color: #E94E1D;
+	transition: .15s all linear;;
+
+	@include max_breakpoint(xl) {
+		width: 100%;
+	}
+
+	&:before,
+	&:after {
+		content: none;
+	}
+
+	&:hover {
+		box-shadow: 0 20px 25px -10px rgba(0, 0, 0, 0.05);
+		transform: translateY(-1px);
+	}
+
+	&:active {
+		box-shadow: none;
+        transform: none;
+	}
+}

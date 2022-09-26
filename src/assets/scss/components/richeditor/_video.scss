@@ -1,0 +1,17 @@
+&_video {
+	position: relative;
+	width: 100%;
+	display: block;
+	
+	figure {
+		display: block;
+	}
+
+	figcaption {
+		font-size: 14px;
+		font-style: italic;
+		text-align: center;
+		display: block;
+		margin: 5px 0 0;
+	}
+}

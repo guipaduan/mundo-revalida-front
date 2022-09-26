@@ -1,0 +1,62 @@
+&_input_custom {
+	outline: none;
+}
+
+&_input_require {
+	border-bottom-color: #ff9e9e;
+}
+
+&_input_rach {
+	position: relative;
+	line-height: 25px;
+	margin: 0 0 10px;
+
+	&:last-child {
+		margin-bottom: 0;
+	}
+
+	span {
+		display: block;
+		margin: 0;
+	}
+}
+  
+label {
+	color: initial;
+	font-size: 14px;
+	font-weight: 600;
+	display: block;
+	padding: 0 0 10px;
+
+	&.required {
+		&:before {
+			content: "•";
+			color: #ff9e9e;
+			font-size: 20px;
+			display: inline-block;
+			margin: 0 5px 0 0;
+		}
+	}
+}
+
+.required {
+	label {
+		&:before {
+			content: "•";
+			color: #ff9e9e;
+			font-size: 20px;
+			display: inline-block;
+			margin: 0 5px 0 0;
+		}
+	}
+}
+
+ul {
+	list-style: disc;
+	margin: 0 20px;
+	padding: 0;
+
+	li {
+		margin: 8px 0;
+	}
+}

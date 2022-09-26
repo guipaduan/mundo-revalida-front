@@ -1,0 +1,23 @@
+.richeditor {
+    font-size: 14px;
+    line-height: 25px;
+    overflow-wrap: break-word;
+
+    &.text-center {
+        text-align: center;
+    }
+
+    &.text-right {
+        text-align: right;
+    }
+
+    /**
+     * Import de components
+     */
+     @import "richeditor/elements";
+     @import "richeditor/alignment";
+     @import "richeditor/lists";
+     @import "richeditor/calltoaction";
+     @import "richeditor/form";
+     @import "richeditor/video";
+}

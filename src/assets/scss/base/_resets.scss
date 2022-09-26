@@ -1,0 +1,54 @@
+@charset "utf-8";
+
+* {
+    padding: 0;
+    margin: 0;
+    /*font-family: "Open Sans", Trebuchet-MS, Helvetica, sans-serif;*/
+    font-family: 'Poppins', sans-serif;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+}
+
+::selection {
+    color: #000;
+    background: #BF9213;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    color: #fff;
+    font-size: 14px;
+    position: relative;
+    background-image: url(@/assets/images/background.jpg);
+    background-position: top center;
+    background-size: cover;
+
+    a {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    ul {
+        list-style: none;
+    }
+}
+
+.alignment {
+    width: 100%;
+    max-width: 1280px;
+    margin: auto;
+
+    @include max_breakpoint(xl) {
+        padding: 0 15px;
+    }
+}

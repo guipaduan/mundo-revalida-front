@@ -1,0 +1,35 @@
+.global_form {
+    /**
+     * Resets para o global_grid
+     * :: caso seja usado esse bloco manipulará o global_grid
+     */
+    & > div {
+        &:last-child {
+            & > div {
+                &:last-child {
+                    margin-bottom: 0 !important;
+                }
+            }
+        }
+
+        & > div {
+            margin-top: 0 !important;
+            margin-bottom: 25px !important;
+        }
+    }
+
+
+
+    /**
+     * Import de components
+     */
+    @import "forms/elements";
+    @import "forms/fieldset";
+    @import "forms/input";
+    @import "forms/select";
+    @import "forms/textarea";
+    @import "forms/checkbox";
+    @import "forms/radio";
+    @import "forms/file";
+    @import "forms/button";
+}

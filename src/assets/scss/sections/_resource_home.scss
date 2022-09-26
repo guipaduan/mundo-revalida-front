@@ -1,0 +1,107 @@
+.component_resource_home {
+	position: relative;
+	width: 100%;
+	max-width: 1080px;
+	display: block;
+	margin: auto;
+	padding: 100px 0 0;
+
+	h1,
+	h2 {
+		text-align: center;
+	}
+
+	& > ul {
+		display: flex;
+		flex-wrap: wrap;
+		margin: 0 -20px;
+
+		@include max_breakpoint(xl) {
+			margin: 0;
+		}
+
+		& > li {
+			width: calc(100% / 2 - 40px);
+			display: flex;
+			flex-flow: column;
+			margin: 20px;
+			padding: 50px;
+			border-radius: 20px;
+			border: 2px solid #FF252D;
+
+			@include max_breakpoint(xl) {
+				width: 100%;
+				margin: 25px 0 0;
+				padding: 50px 35px !important;
+
+				&:first-child {
+					margin-top: 0;
+				}
+			}
+
+			&[data-width=full] {
+				width: 100%;
+				padding: 100px 50px;
+
+				.wrapper {
+					display: flex;
+					flex-wrap: wrap;
+					justify-content: center;
+				}
+
+				.description {
+					font-size: 26px;
+					width: 100%;
+
+					@include max_breakpoint(xl) {
+						font-size: 18px;
+					}
+				}
+
+				.global_cta {
+					margin-left: 0;
+
+					@include max_breakpoint(xl) {
+						margin: 0;
+					}
+				}
+			}
+
+			.image {
+				display: block;
+				margin: auto 0 25px;
+
+				@include max_breakpoint(xl) {
+					width: 100%;
+					// max-width: 230px;
+				}
+
+				img {
+					max-width: 100%;
+					display: block;
+				}
+			}
+
+			.description {
+				color: #fff;
+				font-size: 20px;
+				display: block;
+				margin: 0 0 50px;
+
+				@include max_breakpoint(xl) {
+					font-size: 18px;
+
+					br {
+						display: none;
+					}
+				}
+			}
+
+			.global_cta {
+				margin-top: auto;
+				margin-right: auto;
+				margin-left: auto;
+			}
+		}
+	}
+}
