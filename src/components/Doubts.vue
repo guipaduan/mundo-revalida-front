@@ -5,33 +5,36 @@
 
     <ul>
       <li>
-        <div class="title">#1 - Este pode ser o título da primeira pergunta desta seção?</div>
+        <div class="title">O que é o Revalida?</div>
         <div class="description">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt viverra felis pellentesque aliquet. Etiam id rutrum purus. Integer scelerisque facilisis ipsum id facilisis. Donec efficitur pretium nulla, quis imperdiet justo auctor vitae. Pellentesque faucibus mauris quis nunc efficitur efficitur. Sed turpis lacus, tempus scelerisque.
+          <p>O Revalida subsidia o processo de revalidação dos diplomas de médicos que se formaram no exterior e querem atuar no Brasil. O exame é direcionado tanto aos estrangeiros formados em medicina fora do Brasil quanto aos brasileiros que se graduaram em outro país e querem exercer a profissão no país.</p>
+          <p>O processo avaliativo é dividido em duas etapas eliminatórias aplicadas em momentos distintos, sendo elas:</p>
+          <p>- Primeira fase: Prova Objetiva e Prova Discursiva</p>
+          <p>- Segunda fase: Prova Prática, de habilidades clínicas</p>
+          <p>A aprovação nas duas etapas é um demonstrativo da competência técnica (teórica e prática) do médico graduado para o exercício profissional no Brasil.</p>
         </div>
       </li>
       <li>
-        <div class="title">#2 - Aqui vai mais um título para uma Segunda pergunta?</div>
+        <div class="title">Quantas vezes por ano tem o Revalida?</div>
         <div class="description">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt viverra felis pellentesque aliquet. Etiam id rutrum purus. Integer scelerisque facilisis ipsum id facilisis. Donec efficitur pretium nulla, quis imperdiet justo auctor vitae. Pellentesque faucibus mauris quis nunc efficitur efficitur. Sed turpis lacus, tempus scelerisque.
+          <p>O Revalida pelo INEP tem duas vezes por ano, sendo que o primeiro costuma se iniciar em março e finalizar em setembro, e o segundo se inicia em agosto e finaliza em março.</p>
         </div>
       </li>
       <li>
-        <div class="title">#3 - Temos um box exemplo para uma pergunta aberta?</div>
+        <div class="title">Como é a Primeira Fase do Revalida?</div>
         <div class="description">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt viverra felis pellentesque aliquet. Etiam id rutrum purus. Integer scelerisque facilisis ipsum id facilisis. Donec efficitur pretium nulla, quis imperdiet justo auctor vitae. Pellentesque faucibus mauris quis nunc efficitur efficitur. Sed turpis lacus, tempus scelerisque.
+          <p>A Primeira Fase geralmente ocorre no domingo, e são duas provas no mesmo dia.</p>
+          <p>No período da manhã, usualmente das 8 às 13 horas, ocorre a Prova Objetiva composta por 100 testes, sendo que cada questão vale um ponto.</p>
+          <p>No período da tarde, usualmente das 15:30 às 19:30, ocorre a Prova Discursiva, composta por 5 questões, sendo que cada questão vale 10 pontos.</p>
+          <p>A somatória das duas provas totaliza 150 pontos, e a nota é variável e depende do edital vigente.</p>
         </div>
       </li>
       <li>
-        <div class="title">#4 - Aqui pode ser mais um box de pergunta?</div>
+        <div class="title">Como é a Segunda Fase do Revalida?</div>
         <div class="description">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt viverra felis pellentesque aliquet. Etiam id rutrum purus. Integer scelerisque facilisis ipsum id facilisis. Donec efficitur pretium nulla, quis imperdiet justo auctor vitae. Pellentesque faucibus mauris quis nunc efficitur efficitur. Sed turpis lacus, tempus scelerisque.
-        </div>
-      </li>
-      <li>
-        <div class="title">#5 - Essa seção é responsável por tirar principais dúvidas?</div>
-        <div class="description">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt viverra felis pellentesque aliquet. Etiam id rutrum purus. Integer scelerisque facilisis ipsum id facilisis. Donec efficitur pretium nulla, quis imperdiet justo auctor vitae. Pellentesque faucibus mauris quis nunc efficitur efficitur. Sed turpis lacus, tempus scelerisque.
+          <p>A Segunda Fase é a prova de habilidades clínicas, com aplicação prática, composta por 10 estações simuladas, com duração de 10 minutos cada.</p>
+          <p>A prova é dividida em cinco estações no sábado e cinco estações no domingo, sendo duas estações de cada grande área.</p>
+          <p>Todas estações práticas são simulações em consultório médico, ou atendimento de emergência.</p>
         </div>
       </li>
     </ul>
@@ -44,7 +47,9 @@
         Teremos o maior prazer em respondê-lo.
       </div>
 
-      <a href="" class="global_cta">Tenha uma dúvida</a>
+      <router-link :to="{name: 'contact'}" class="global_cta">
+        Tenho uma dúvida
+      </router-link>
     </div>
   </section>
 </template>

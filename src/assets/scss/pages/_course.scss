@@ -1,0 +1,99 @@
+.content_course {
+	position: relative;
+	display: block;
+
+	.logotipo {
+		max-width: 620px;
+		display: block;
+		margin: 0 auto 35px;
+
+		@include max_breakpoint(xl) {
+			max-width: 320px;
+		}
+
+		img {
+			width: 100%;
+			display: block;
+		}
+
+		.year {
+			color: #fff;
+			font-size: 38px;
+			font-weight: bold;
+			display: flex;
+			justify-content: flex-end;
+			margin: 0 0 25px;
+		}
+
+		.date {
+			color: #fff;
+			font-size: 32px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			margin: -25px 0 25px;
+
+			i {
+				margin: -3px 15px 0 0;
+			}
+		}
+
+		& + .description {
+			font-size: 26px;
+			line-height: 42px;
+
+			@include max_breakpoint(xl) {
+				font-size: 16px;
+				line-height: 28px;
+			}
+		}
+	}
+  
+	.description.richeditor {
+		text-align: center;
+		width: fit-content;
+		margin: auto;
+
+		@include max_breakpoint(xl) {
+			br {
+				display: none;
+			}
+		}
+
+		@include max_breakpoint(xl) {
+			ul {
+				max-width: 320px;
+				margin-right: auto;
+				margin-left: auto;
+			}
+		}
+	}
+  
+	section {
+		margin: 100px 0 0;
+		display: block;
+
+		& > h1 {
+			text-align: center;
+			line-height: 48px;
+			display: block;
+			margin: 0 0 15px;
+
+			& + .course_list,
+			& + .combo_list {
+				margin: 0;
+			}
+		}
+
+		& > h2 {
+			text-align: center;
+			display: block;
+			margin: 0 0 15px;
+
+			& + .course_list,
+			& + .combo_list {
+				margin: 0;
+			}
+		}
+	}
+}

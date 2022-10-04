@@ -29,15 +29,22 @@ export default {
   @import "assets/scss/components/alerts";
   @import "assets/scss/components/breadcrumbs";
   @import "assets/scss/components/calltoaction";
+  @import "assets/scss/components/embeds";
   @import "assets/scss/components/forms";
   @import "assets/scss/components/grid";
   @import "assets/scss/components/pagination";
+  @import "assets/scss/components/richeditor";
   @import "assets/scss/components/share";
   @import "assets/scss/components/structure";
   
+  @import "assets/scss/pages/course";
+  
   @import "assets/scss/sections/about";
+  @import "assets/scss/sections/combo_list";
   @import "assets/scss/sections/course_home";
+  @import "assets/scss/sections/course_list";
   @import "assets/scss/sections/doubts";
+  @import "assets/scss/sections/method_list";
   @import "assets/scss/sections/resource_home";
   @import "assets/scss/sections/testimonial";
 </style>

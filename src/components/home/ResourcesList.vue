@@ -29,7 +29,7 @@
 
         <p class="description">
           Elaboração de recurso exclusivo<br />
-          da <strong>Prova Discursiva</strong>
+          da <strong>Prova Prática</strong>
         </p>
 
         <router-link :to="{name: 'resourcePracticleTest'}">

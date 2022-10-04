@@ -1,6 +1,5 @@
 import { createRouter, createWebHashHistory, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
-import ContactView from '../views/ContactView.vue'
 import StrikeComponent from '../components/courses/Strike.vue';
 import DiscursiveMasterComponent from '@/components/courses/DiscursiveMaster.vue';
 import PracticusIntensiveComponent from '@/components/courses/PracticusIntensive.vue';
@@ -8,6 +7,7 @@ import PracticusPresencialComponent from '@/components/courses/PracticusPresenci
 import CombosComponent from '@/components/courses/Combos.vue';
 import DiscursiveTest from '@/components/resources/DiscursiveTest.vue';
 import PracticleTest from '@/components/resources/PracticleTest.vue';
+import ContactComponent from '@/views/ContactView.vue';
 
 const routes = [
   {
@@ -22,11 +22,6 @@ const routes = [
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
     component: () => import(/* webpackChunkName: "about" */ '../views/AboutView.vue')
-  },
-  {
-    path: '/contato',
-    name: 'contato',
-    component: ContactView
   },
 
   //cursos
@@ -70,6 +65,13 @@ const routes = [
     name: 'resourcePracticleTest',
     component: PracticleTest,
   },
+
+  //contato
+  {
+    path: '/contato',
+    name: 'contact',
+    component: ContactComponent,
+  }
 ]
 
 const router = createRouter({

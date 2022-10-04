@@ -62,6 +62,10 @@
 
 				.description {
 					text-align: left;
+
+					@include max_breakpoint(xl) {
+						text-align: center;
+					}
 				}
 			}
 

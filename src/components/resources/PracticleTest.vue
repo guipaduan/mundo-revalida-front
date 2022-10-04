@@ -7,14 +7,10 @@
 </template>
 
 <script>
-import StructureHeader from '@/components/structure/Header.vue';
-import StructureFooter from '@/components/structure/Footer.vue';
-
 export default {
     name: 'DiscursiveMaster',
     components: {
-        StructureHeader,
-        StructureFooter,
+
     }
 }
 </script>
