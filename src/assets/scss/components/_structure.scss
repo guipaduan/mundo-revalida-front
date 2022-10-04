@@ -423,7 +423,7 @@
 
 		@include max_breakpoint(xl) {
 			font-size: 32px;
-			line-height: 35px;
+			line-height: 36px;
 		}
 	}
 
@@ -438,6 +438,12 @@
 			font-size: 18px;
 			margin-top: 5px;
 		}
+	}
+
+	h3 {
+		font-size: 18px;
+		font-weight: 300;
+		display: block;
 	}
 }
 

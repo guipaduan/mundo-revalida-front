@@ -3,6 +3,35 @@
 	display: block;
 	margin: 50px 0 0;
 
+	& > .title {
+		color: #BF9213;
+		font-size: 48px;
+		font-weight: bold;
+		text-transform: uppercase;
+		text-align: center;
+		display: block;
+		margin: 0 0 15px;
+
+		@include max_breakpoint(xl) {
+			font-size: 32px;
+			line-height: 38px;
+		}
+	}
+
+	& > .subtitle {
+		font-size: 26px;
+		font-weight: 300;
+		text-align: center;
+		display: block;
+		margin-top: -25px;
+		margin-bottom: 25px;
+
+		@include max_breakpoint(xl) {
+			font-size: 18px;
+			margin-top: 5px;
+		}
+	}
+
 	& > ul {
 		display: flex;
 		flex-wrap: wrap;
@@ -20,10 +49,67 @@
 			@include max_breakpoint(xl) {
 				width: 100%;
 				margin: 25px 0 0;
-				padding: 50px;
+				padding: 50px 25px;
+			}
 
-				&:first-child {
-					margin-top: 0;
+			&:first-child {
+				margin-top: 0;
+			}
+
+			&:last-child {
+				margin-bottom: 0;
+			}
+
+			& > .title {
+				color: #BF9213;
+				font-size: 32px;
+				font-weight: bold;
+				text-align: center;
+				text-transform: uppercase;
+				margin: 0 0 35px;
+
+				@include max_breakpoint(xl) {
+					font-size: 18px;
+					margin-top: 5px;
+				}
+			}
+
+			& > .subtitle {
+				font-size: 18px;
+				font-weight: normal;
+				text-align: center;
+				margin: -35px 0 50px;
+
+				strong {
+					font-weight: 600;
+				}
+			}
+
+			h2 {
+				color: #BF9213;
+				font-size: 32px !important;
+				font-weight: bold !important;
+				text-align: center;
+				text-transform: uppercase;
+				margin: 0 0 35px !important;
+
+				@include max_breakpoint(xl) {
+					line-height: 38px;
+				}
+
+				strong {
+					color: #000;
+					background: #BF9213;
+				}
+			}
+
+			h3 {
+				font-weight: normal;
+				text-align: center;
+				margin: -35px 0 50px;
+
+				strong {
+					font-weight: 600;
 				}
 			}
 
@@ -31,6 +117,15 @@
 				display: flex;
 				align-items: center;
 				justify-content: center;
+				margin: 0 0 50px;
+				padding: 0 0 50px;
+				border-bottom: 2px solid #BF9213;
+		
+				&:last-child {
+					margin-bottom: 0;
+					padding-bottom: 0;
+					border-bottom: none;
+				}
 
 				@include max_breakpoint(xl) {
 					flex-flow: column;
@@ -247,6 +342,7 @@
 						font-weight: bold;
 						display: flex;
 						align-items: center;
+						justify-content: center;
 
 						span {
 							&:nth-child(1) {
@@ -258,6 +354,18 @@
 								display: block;
 								margin: 0 0 0 5px;
 							}
+						}
+					}
+
+					.description {
+						font-size: 18px;
+						text-align: left;
+						width: fit-content;
+						margin-right: auto;
+						margin-left: auto;
+
+						@include max_breakpoint(xl) {
+							text-align: center;
 						}
 					}
 
@@ -285,28 +393,87 @@
 	}
 
 	&_simplified {
-		ul {
-			li {
-				&:last-child {
-					flex-shrink: inherit !important;
+		& > ul {
+			& > li {
+				
+				ul {
+					margin-bottom: 0;
+					padding-bottom: 0;
+					border-bottom: none;
 
-					&:before {
-						content: '+' !important;
-						color: #000 !important;
-						background: rgb(184, 135, 23) !important;
-						background: linear-gradient(90deg, rgba(184, 135, 23, 1) 0%, rgba(216, 183, 6, 1) 70%) !important;
-						-webkit-background-clip: background !important;
-						-webkit-text-fill-color: #000 !important;
+					li {
+						&:last-child {
+							flex-shrink: inherit !important;
+		
+							&:before {
+								content: '+' !important;
+								color: #000 !important;
+								background: rgb(184, 135, 23) !important;
+								background: linear-gradient(90deg, rgba(184, 135, 23, 1) 0%, rgba(216, 183, 6, 1) 70%) !important;
+								-webkit-background-clip: background !important;
+								-webkit-text-fill-color: #000 !important;
+							}
+						}
+		
+						.image {
+							max-width: 320px !important;
+		
+							@include max_breakpoint(xl) {
+								max-width: 250px !important;
+							}
+						}
+					}
+				}
+				
+			}
+		}
+	}
+
+	&_calculated {
+		& > ul {
+			& > li {
+
+				ul[data-combo-quantity] {
+					flex-wrap: wrap;
+
+					li {
+						&:last-child {
+							width: 100% !important;
+							margin: 35px 0 0;
+							padding: 35px 0 0;
+
+							@include max_breakpoint(xl) {
+								margin: 0;
+								padding-top: 50px;
+							}
+
+							&:before {
+								bottom: calc(100% - 18px);
+								right: 0;
+								left: 0;
+							}
+						}
+					}
+
+					&[data-combo-quantity="4"] {
+						li {
+							width: calc(100% / 4);
+
+							@include max_breakpoint(xl) {
+								width: auto;
+							}
+
+							&:first-child {
+								padding-left: 60px;
+
+								@include max_breakpoint(xl) {
+									padding-left: 0;
+								}
+							}
+						}
 					}
 				}
 
-				.image {
-					max-width: 320px !important;
-
-					@include max_breakpoint(xl) {
-						max-width: 250px !important;
-					}
-				}
 			}
 		}
 	}
