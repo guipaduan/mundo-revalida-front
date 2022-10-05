@@ -241,9 +241,9 @@
       <section>
         <h1>Combos</h1>
 
-        <div class="combo_list">
+        <div class="combo_list combo_list_simplified">
           <ul>
-            <li class="combo_list_simplified">
+            <li>
               <ul>
                 <li>
                   <div class="image">
