@@ -17,17 +17,42 @@
 
           <ul>
             <li>
-              <a href="/#courses">Cursos</a>
-
-              <!--<ul>
-                <li><a href="">Strike</a></li>
-                <li><a href="">Discursive Master</a></li>
-                <li><a href="">Practicus Intensive 2022.2</a></li>
-              </ul>-->
+              <a href="/#courses" v-if="isHomeUrl">Cursos</a>
+              <a href="javascript:void(0)" v-if="!isHomeUrl">Cursos</a>
+              <ul v-if="!isHomeUrl">
+                <li>
+                  <router-link :to="{name: 'strikeCourse'}">Strike</router-link>
+                </li>
+                <li>
+                  <router-link :to="{name: 'discursiveMasterCourse'}">Discursive Master</router-link>
+                </li>
+                <li>
+                  <router-link :to="{name: 'practicusIntensiveCourse'}">Practicus Intensive</router-link>
+                </li>
+                <li>
+                  <router-link :to="{name: 'practicusPresencialCourse'}">Practicus Presencial</router-link>
+                </li>
+                <li>
+                  <router-link :to="{name: 'combos'}">Combos</router-link>
+                </li>
+              </ul>
             </li>
 
-            <li><a href="/#resources">Recursos</a></li>
-            <li><router-link to="/contato">Contato</router-link></li>
+            <li>
+              <a href="/#resources" v-if="isHomeUrl">Recursos</a>
+              <a href="javascript:void(0)" v-if="!isHomeUrl">Recursos</a>
+              <ul v-if="!isHomeUrl">
+                <li>
+                  <router-link :to="{name: 'resourceDiscursiveTest'}">Prova Discursiva</router-link>
+                </li>
+                <li>
+                  <router-link :to="{name: 'resourcePracticleTest'}">Prova Prática</router-link>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <router-link :to="{name: 'contact'}">Contato</router-link>
+            </li>
 
             <li class="cta">
               <div class="cta">

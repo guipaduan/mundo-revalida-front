@@ -1,0 +1,24 @@
+.global_embed {
+	width: 100%;
+	margin: auto;
+
+	&_video {
+		div {
+			position: relative;
+			height: 0;
+			padding-top: 30px;
+			padding-bottom: 49.52%;
+			overflow: hidden;
+
+			iframe,
+			object,
+			embed {
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+			}
+		}
+	}
+}

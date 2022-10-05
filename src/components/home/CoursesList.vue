@@ -32,7 +32,7 @@
 
       <li>
         <div class="image">
-          <img src="@/assets/images/logo_c_practicus_intensive_22.2.png" alt="" border="0" />
+          <img src="@/assets/images/logo_c_practicus_intensive.png" alt="" border="0" />
         </div>
 
         <p class="description">

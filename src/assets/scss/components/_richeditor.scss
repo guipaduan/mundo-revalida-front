@@ -1,7 +1,12 @@
 .richeditor {
-    font-size: 14px;
-    line-height: 25px;
+    font-size: 19px;
+    line-height: 32px;
     overflow-wrap: break-word;
+
+    @include max_breakpoint(xl) {
+        font-size: 16px;
+        line-height: 28px;
+    }
 
     &.text-center {
         text-align: center;
