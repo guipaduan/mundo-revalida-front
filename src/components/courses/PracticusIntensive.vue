@@ -142,9 +142,7 @@
       </section>
 
       <section>
-        <div class="logotipo">
-          <img src="@/assets/images/logo_mentoria_exclusiva.png" alt="Practicus Intensive" border="0" />
-        </div>
+        <h1>Mentoria Practicus Intensive</h1>
   
         <div class="description richeditor">
           <p>A <strong>Mentoria Mundo Revalida</strong> vai ser o seu diferencial nessa reta final!</p>
@@ -240,6 +238,10 @@
 
       <section>
         <h1>Combos</h1>
+        <h2>
+          Ao comprar o curso <strong>PRACTICUS PRESENCIAL</strong> você ganha<br />
+          gratuitamente o curso <strong>PRACTICUS INTENSIVE (100% online)</strong>.
+        </h2>
 
         <div class="combo_list combo_list_simplified">
           <ul>
@@ -247,13 +249,13 @@
               <ul>
                 <li>
                   <div class="image">
-                    <img src="@/assets/images/logo_c_practicus_presencial_centered.png" alt="" border="0" />
+                    <img src="@/assets/images/logo_c_practicus_presencial.png" alt="" border="0" />
                   </div>
                 </li>
 
                 <li>
                   <div class="image">
-                    <img src="@/assets/images/logo_c_practicus_intensive_centered.png" alt="" border="0" />
+                    <img src="@/assets/images/logo_c_practicus_intensive.png" alt="" border="0" />
                   </div>
                 </li>
               </ul>

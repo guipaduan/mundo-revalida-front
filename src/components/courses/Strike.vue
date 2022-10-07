@@ -184,7 +184,7 @@
 
                 <li>
                   <div class="image">
-                    <img src="@/assets/images/logo_c_discursive_master_centered.png" alt="" border="0" />
+                    <img src="@/assets/images/logo_c_discursive_master.png" alt="" border="0" />
                   </div>
 
                   <div class="year">2023.1</div>
@@ -251,7 +251,7 @@
 
                 <li>
                   <div class="image">
-                    <img src="@/assets/images/logo_c_discursive_master_centered.png" alt="" border="0" />
+                    <img src="@/assets/images/logo_c_discursive_master.png" alt="" border="0" />
                   </div>
 
                   <div class="year">2023.2</div>

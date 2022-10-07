@@ -37,6 +37,7 @@ export default {
   @import "assets/scss/components/share";
   @import "assets/scss/components/structure";
   
+  @import "assets/scss/pages/combos";
   @import "assets/scss/pages/course";
   
   @import "assets/scss/sections/about";

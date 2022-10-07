@@ -2,8 +2,13 @@
   <main id="content" class="content_combos">
     <div class="alignment">
       
-      <h1>Combos Mundo Revalida</h1>
-      <h2>Compre junto e receba um desconto especial</h2>
+      <div class="logotipo">
+        <img src="@/assets/images/logo_c_combos.png" alt="Combos Mundo Revalida" border="0" />
+      </div>
+
+      <div class="description richeditor">
+        <p>Compre junto e receba um desconto especial</p>
+      </div>
 
       <div class="combo_list">
         <div class="title">Combos primeira fase revalida INEP</div>
@@ -33,7 +38,7 @@
 
               <li>
                 <div class="image">
-                  <img src="@/assets/images/logo_c_discursive_master_centered.png" alt="" border="0" />
+                  <img src="@/assets/images/logo_c_discursive_master.png" alt="" border="0" />
                 </div>
 
                 <div class="year">2023.1</div>
@@ -99,7 +104,7 @@
 
               <li>
                 <div class="image">
-                  <img src="@/assets/images/logo_c_discursive_master_centered.png" alt="" border="0" />
+                  <img src="@/assets/images/logo_c_discursive_master.png" alt="" border="0" />
                 </div>
 
                 <div class="year">2023.2</div>
@@ -154,7 +159,7 @@
             <ul>
               <li>
                 <div class="image">
-                  <img src="@/assets/images/logo_c_practicus_presencial_centered.png" alt="" border="0" />
+                  <img src="@/assets/images/logo_c_practicus_presencial.png" alt="" border="0" />
                 </div>
 
                 <div class="year">2022.2</div>
@@ -173,7 +178,7 @@
 
               <li>
                 <div class="image">
-                  <img src="@/assets/images/logo_c_practicus_presencial_online_centered.png" alt="" border="0" />
+                  <img src="@/assets/images/logo_c_practicus_presencial.png" alt="" border="0" />
                 </div>
 
                 <div class="year">2022.2</div>
@@ -210,7 +215,7 @@
             <ul>
               <li>
                 <div class="image">
-                  <img src="@/assets/images/logo_c_practicus_presencial_centered.png" alt="" border="0" />
+                  <img src="@/assets/images/logo_c_practicus_presencial.png" alt="" border="0" />
                 </div>
 
                 <div class="year">2023.1</div>
@@ -229,7 +234,7 @@
 
               <li>
                 <div class="image">
-                  <img src="@/assets/images/logo_c_practicus_presencial_online_centered.png" alt="" border="0" />
+                  <img src="@/assets/images/logo_c_practicus_presencial.png" alt="" border="0" />
                 </div>
 
                 <div class="year">2023.1</div>
@@ -266,7 +271,7 @@
             <ul>
               <li>
                 <div class="image">
-                  <img src="@/assets/images/logo_c_practicus_presencial_centered.png" alt="" border="0" />
+                  <img src="@/assets/images/logo_c_practicus_presencial.png" alt="" border="0" />
                 </div>
 
                 <div class="year">2023.2</div>
@@ -285,7 +290,7 @@
 
               <li>
                 <div class="image">
-                  <img src="@/assets/images/logo_c_practicus_presencial_online_centered.png" alt="" border="0" />
+                  <img src="@/assets/images/logo_c_practicus_presencial.png" alt="" border="0" />
                 </div>
 
                 <div class="year">2023.2</div>
@@ -351,7 +356,7 @@
 
               <li>
                 <div class="image">
-                  <img src="@/assets/images/logo_c_discursive_master_centered.png" alt="" border="0" />
+                  <img src="@/assets/images/logo_c_discursive_master.png" alt="" border="0" />
                 </div>
 
                 <div class="year">2023.1</div>
@@ -389,7 +394,7 @@
 
               <li>
                 <div class="image">
-                  <img src="@/assets/images/logo_c_discursive_master_centered.png" alt="" border="0" />
+                  <img src="@/assets/images/logo_c_discursive_master.png" alt="" border="0" />
                 </div>
 
                 <div class="year">2023.2</div>
@@ -441,7 +446,7 @@
             <ul>
               <li>
                 <div class="image">
-                  <img src="@/assets/images/logo_c_practicus_intensive_centered.png" alt="" border="0" />
+                  <img src="@/assets/images/logo_c_practicus_intensive.png" alt="" border="0" />
                 </div>
 
                 <div class="year">2023.1</div>
@@ -460,7 +465,7 @@
 
               <li>
                 <div class="image">
-                  <img src="@/assets/images/logo_c_practicus_intensive_centered.png" alt="" border="0" />
+                  <img src="@/assets/images/logo_c_practicus_intensive.png" alt="" border="0" />
                 </div>
 
                 <div class="year">2023.2</div>

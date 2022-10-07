@@ -3,7 +3,7 @@
 	  <div class="alignment">
       
       <div class="logotipo">
-        <img src="@/assets/images/logo_c_discursive_master_centered.png" alt="Discursive Master" border="0" />
+        <img src="@/assets/images/logo_c_discursive_master.png" alt="Discursive Master" border="0" />
       </div>
 
       <div class="description richeditor">
@@ -38,6 +38,25 @@
             <li>Simulados Discursivos;</li>
             <li>Aula "O Segredo da Prova Discursiva";</li>
             <li>Banco de Questões.</li>
+          </ul>
+        </div>
+      </section>
+
+      <section>
+        <h1>Módulos</h1>
+
+        <div class="description richeditor">
+          <p>
+            Serão abordadas todas as grandes áreas:
+          </p>
+
+          <ul>
+            <li>Cirurgia Geral;</li>
+            <li>Clínica Médica;</li>
+            <li>Ginecologia e Obstetrícia;</li>
+            <li>Pediatria;</li>
+            <li>Preventiva;</li>
+            <li>Apostas prova discursiva.</li>
           </ul>
         </div>
 
@@ -166,7 +185,7 @@
 
                 <li>
                   <div class="image">
-                    <img src="@/assets/images/logo_c_discursive_master_centered.png" alt="" border="0" />
+                    <img src="@/assets/images/logo_c_discursive_master.png" alt="" border="0" />
                   </div>
 
                   <div class="year">2023.1</div>
@@ -233,7 +252,7 @@
 
                 <li>
                   <div class="image">
-                    <img src="@/assets/images/logo_c_discursive_master_centered.png" alt="" border="0" />
+                    <img src="@/assets/images/logo_c_discursive_master.png" alt="" border="0" />
                   </div>
 
                   <div class="year">2023.2</div>

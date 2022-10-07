@@ -3,7 +3,7 @@
 	  <div class="alignment">
       
       <div class="logotipo">
-        <img src="@/assets/images/logo_c_practicus_presencial_centered.png" alt="Practicus Presencial" border="0" />
+        <img src="@/assets/images/logo_c_practicus_presencial.png" alt="Practicus Presencial" border="0" />
       </div>
 
       <div class="description richeditor">
@@ -95,7 +95,7 @@
               <ul>
                 <li>
                   <div class="image">
-                    <img src="@/assets/images/logo_c_practicus_presencial_centered.png" alt="" border="0" />
+                    <img src="@/assets/images/logo_c_practicus_presencial.png" alt="" border="0" />
                   </div>
 
                   <div class="year">2022.2</div>
@@ -114,7 +114,7 @@
 
                 <li>
                   <div class="image">
-                    <img src="@/assets/images/logo_c_practicus_presencial_online_centered.png" alt="" border="0" />
+                    <img src="@/assets/images/logo_c_practicus_presencial.png" alt="" border="0" />
                   </div>
 
                   <div class="year">2022.2</div>
@@ -152,7 +152,7 @@
               <ul>
                 <li>
                   <div class="image">
-                    <img src="@/assets/images/logo_c_practicus_presencial_centered.png" alt="" border="0" />
+                    <img src="@/assets/images/logo_c_practicus_presencial.png" alt="" border="0" />
                   </div>
 
                   <div class="year">2023.1</div>
@@ -171,7 +171,7 @@
 
                 <li>
                   <div class="image">
-                    <img src="@/assets/images/logo_c_practicus_presencial_online_centered.png" alt="" border="0" />
+                    <img src="@/assets/images/logo_c_practicus_presencial.png" alt="" border="0" />
                   </div>
 
                   <div class="year">2023.1</div>
@@ -209,7 +209,7 @@
               <ul>
                 <li>
                   <div class="image">
-                    <img src="@/assets/images/logo_c_practicus_presencial_centered.png" alt="" border="0" />
+                    <img src="@/assets/images/logo_c_practicus_presencial.png" alt="" border="0" />
                   </div>
 
                   <div class="year">2023.2</div>
@@ -228,7 +228,7 @@
 
                 <li>
                   <div class="image">
-                    <img src="@/assets/images/logo_c_practicus_presencial_online_centered.png" alt="" border="0" />
+                    <img src="@/assets/images/logo_c_practicus_presencial.png" alt="" border="0" />
                   </div>
 
                   <div class="year">2023.2</div>
