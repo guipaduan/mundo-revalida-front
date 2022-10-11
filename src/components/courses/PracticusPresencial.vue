@@ -18,19 +18,17 @@
 
         <div class="description richeditor">
           <p>
-            O <strong>PRACTICUS PRESENCIAL</strong> é um treinamento presencial<br />
-            focado na prova prática do <strong>Revalida.</strong>
+            O <strong>PRACTICUS PRESENCIAL</strong> é um treinamento presencial focado na prova prática do <strong>Revalida.</strong>
           </p>
 
           <p>
-            Serão três dias inteiros de treinamento guiado por nossos professores<br />
-            onde o objetivo é te ensinar de maneira didática e sistematizar os<br />
-            checklists das provas práticas.
+            Serão três dias inteiros de treinamento guiado por nossos professores onde o objetivo é te ensinar<br />
+            de maneira didática e sistematizar os checklists das provas práticas.
           </p>
 
           <p>
-            Nosso foco é que vocês vivenciem o máximo de temas para<br />
-            <strong>Prova Prática</strong>, a fim de alcançar a excelência e aprovação!
+            Nosso foco é que vocês vivenciem o máximo de temas para <strong>Prova Prática</strong>, a fim de alcançar<br />
+            a excelência e aprovação!
           </p>
         </div>
       </section>

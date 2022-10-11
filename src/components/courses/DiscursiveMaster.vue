@@ -20,46 +20,48 @@
 
         <div class="description richeditor">
           <p>
-            O primeiro curso totalmente focado para <strong>Prova Discursiva do Revalida!</strong><br /><br />
-            
-            Faremos uma imersão em todos os temas discursivos já<br />
-            cobrados pelo INEP, além das APOSTAS para cada grande área!
+            O primeiro curso totalmente focado para <strong>Prova Discursiva do Revalida!</strong><br />
+            Faremos uma imersão em todos os temas discursivos já cobrados pelo <strong>INEP</strong>, além das <strong>APOSTAS</strong> para cada grande área!
           </p>
         </div>
       </section>
 
       <section>
-        <h1>Conteúdo</h1>
+        <div class="features">
+          <div>
+            <h1>Conteúdo</h1>
+            <div class="description richeditor">
+              <ul>
+                <li>+ de 60 aulas;</li>
+                <li>Mentoria Coletiva;</li>
+                <li>Simulados Discursivos;</li>
+                <li>Aula "O Segredo da Prova Discursiva";</li>
+                <li>Banco de Questões.</li>
+              </ul>
+            </div>
+          </div>
 
-        <div class="description richeditor">
-          <ul>
-            <li>+ de 60 aulas;</li>
-            <li>Mentoria Coletiva;</li>
-            <li>Simulados Discursivos;</li>
-            <li>Aula "O Segredo da Prova Discursiva";</li>
-            <li>Banco de Questões.</li>
-          </ul>
+          <div>
+            <h1>Módulos</h1>
+            <div class="description richeditor">
+              <p>
+                Serão abordadas todas as grandes áreas:
+              </p>
+    
+              <ul>
+                <li>Cirurgia Geral;</li>
+                <li>Clínica Médica;</li>
+                <li>Ginecologia e Obstetrícia;</li>
+                <li>Pediatria;</li>
+                <li>Preventiva;</li>
+                <li>Apostas prova discursiva.</li>
+              </ul>
+            </div>
+          </div>
         </div>
       </section>
 
       <section>
-        <h1>Módulos</h1>
-
-        <div class="description richeditor">
-          <p>
-            Serão abordadas todas as grandes áreas:
-          </p>
-
-          <ul>
-            <li>Cirurgia Geral;</li>
-            <li>Clínica Médica;</li>
-            <li>Ginecologia e Obstetrícia;</li>
-            <li>Pediatria;</li>
-            <li>Preventiva;</li>
-            <li>Apostas prova discursiva.</li>
-          </ul>
-        </div>
-
         <div class="course_list">
           <ul>
             <li>

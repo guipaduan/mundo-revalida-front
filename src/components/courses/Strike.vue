@@ -18,47 +18,50 @@
 
         <div class="description richeditor">
           <p>
-            Curso semi-extensivo, em que abordaremos todos<br />
-            os principais temas da Prova Objetiva.<br /><br />
-            
-            Conteúdo de alta qualidade para te fazer fixar<br />
-            todos os temas importantes para Prova do Revalida.
+            Curso semi-extensivo, em que abordaremos todos os principais temas da Prova Objetiva.<br />
+            Conteúdo de alta qualidade para te fazer fixar todos os temas importantes para Prova do Revalida.
           </p>
         </div>
       </section>
 
       <section>
-        <h1>Conteúdo</h1>
+        <div class="features">
+          <div>
+            <h1>Conteúdo</h1>
 
-        <div class="description richeditor">
-          <ul>
-            <li>+ de 100 aulas;</li>
-            <li>Mentoria Coletiva;</li>
-            <li>Simulados Periódicos;</li>
-            <li>Aula "O Segredo da Prova Objetiva";</li>
-            <li>Banco de Questões.</li>
-          </ul>
+            <div class="description richeditor">
+              <ul>
+                <li>+ de 100 aulas;</li>
+                <li>Mentoria Coletiva;</li>
+                <li>Simulados Periódicos;</li>
+                <li>Aula "O Segredo da Prova Objetiva";</li>
+                <li>Banco de Questões.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div>
+            <h1>Módulos</h1>
+
+            <div class="description richeditor">
+              <p>
+                Serão <strong>12 semanas</strong> de curso, sendo cada<br />
+                semana focada em uma grande área:
+              </p>
+    
+              <ul>
+                <li>Cirurgia Geral;</li>
+                <li>Clínica Médica;</li>
+                <li>Ginecologia e Obstetrícia;</li>
+                <li>Pediatria;</li>
+                <li>Preventiva;</li>
+              </ul>
+            </div>
+          </div>
         </div>
       </section>
 
       <section>
-        <h1>Módulos</h1>
-
-        <div class="description richeditor">
-          <p>
-            Serão <strong>12 semanas</strong> de curso, sendo cada<br />
-            semana focada em uma grande área:
-          </p>
-
-          <ul>
-            <li>Cirurgia Geral;</li>
-            <li>Clínica Médica;</li>
-            <li>Ginecologia e Obstetrícia;</li>
-            <li>Pediatria;</li>
-            <li>Preventiva;</li>
-          </ul>
-        </div>
-
         <div class="course_list">
           <ul>
             <li>

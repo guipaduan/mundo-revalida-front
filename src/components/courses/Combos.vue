@@ -56,6 +56,10 @@
               </li>
 
               <li>
+                <div class="discount">
+                  <strong>20%</strong> de desconto
+                </div>
+
                 <div class="price">
                   <div class="price_de">
                     <span>de:</span>
@@ -122,6 +126,10 @@
               </li>
 
               <li>
+                <div class="discount">
+                  <strong>20%</strong> de desconto
+                </div>
+
                 <div class="price">
                   <div class="price_de">
                     <span>de:</span>
@@ -178,10 +186,10 @@
 
               <li>
                 <div class="image">
-                  <img src="@/assets/images/logo_c_practicus_presencial.png" alt="" border="0" />
+                  <img src="@/assets/images/logo_c_practicus_intensive.png" alt="" border="0" />
                 </div>
 
-                <div class="year">2022.2</div>
+                <div class="year">2022.2 - ONLINE</div>
                 
                 <div class="price">
                   <div class="price_por">
@@ -234,10 +242,10 @@
 
               <li>
                 <div class="image">
-                  <img src="@/assets/images/logo_c_practicus_presencial.png" alt="" border="0" />
+                  <img src="@/assets/images/logo_c_practicus_intensive.png" alt="" border="0" />
                 </div>
 
-                <div class="year">2023.1</div>
+                <div class="year">2023.1 - ONLINE</div>
                 
                 <div class="price">
                   <div class="price_por">
@@ -290,10 +298,10 @@
 
               <li>
                 <div class="image">
-                  <img src="@/assets/images/logo_c_practicus_presencial.png" alt="" border="0" />
+                  <img src="@/assets/images/logo_c_practicus_intensive.png" alt="" border="0" />
                 </div>
 
-                <div class="year">2023.2</div>
+                <div class="year">2023.2 - ONLINE</div>
                 
                 <div class="price">
                   <div class="price_por">
@@ -412,6 +420,10 @@
               </li>
 
               <li>
+                <div class="discount">
+                  <strong>50%</strong> de desconto nos cursos de <strong>2023.2</strong>
+                </div>
+
                 <div class="price">
                   <div class="price_de">
                     <span>de:</span>
@@ -431,10 +443,6 @@
                 <div class="economy">
                   <span>Economia de:</span>
                   <span>R$ 2.334,00</span>
-                </div>
-
-                <div class="description">
-                  <strong>50%</strong> de desconto nos cursos de <strong>2023.2</strong>
                 </div>
     
                 <a href="" class="global_cta">Compre agora</a>
@@ -483,6 +491,10 @@
               </li>
 
               <li>
+                <div class="discount">
+                  <strong>50%</strong> de desconto<br /> nos cursos de <strong>2023.2</strong>
+                </div>
+
                 <div class="price">
                   <div class="price_de">
                     <span>de:</span>
@@ -502,10 +514,6 @@
                 <div class="economy">
                   <span>Economia de:</span>
                   <span>R$ 1.308,00</span>
-                </div>
-
-                <div class="description">
-                  <strong>50%</strong> de desconto<br /> nos cursos de <strong>2023.2</strong>
                 </div>
     
                 <a href="" class="global_cta">Compre agora</a>

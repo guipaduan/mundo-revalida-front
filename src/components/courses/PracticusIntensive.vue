@@ -19,45 +19,51 @@
 
         <div class="description richeditor">
           <p>
-            Criamos um curso totalmente focado na Prova Prática, onde<br />
-            associamos o conhecimento teórico a técnica de resolução de<br />
-            prova a fim de alcançar a tão sonhada aprovação!
+            Criamos um curso totalmente focado na Prova Prática, onde associamos o conhecimento<br />
+            teórico a técnica de resolução de prova a fim de alcançar a tão sonhada aprovação!
           </p>
         </div>
       </section>
 
       <section>
-        <h1>Conteúdo</h1>
+        <div class="features">
+          <div>
+            <h1>Conteúdo</h1>
 
-        <div class="description richeditor">
-          <ul>
-            <li>+ de 80 aulas;</li>
-            <li>Aulas teóricas aplicada na Prática;</li>
-            <li>Estações Simuladas;</li>
-            <li>Aula "O Segredo da Prova Prática".</li>
-          </ul>
+            <div class="description richeditor">
+              <ul>
+                <li>+ de 80 aulas;</li>
+                <li>Aulas teóricas aplicadas à Prática;</li>
+                <li>Estações Simuladas;</li>
+                <li>Correção das estações simuladas;</li>
+                <li>Aula "O Segredo da Prova Prática".</li>
+              </ul>
+            </div>
+          </div>
+
+          <div>
+            <h1>Módulos</h1>
+
+            <div class="description richeditor">
+              <p>
+                Serão <strong>6 semanas</strong> de curso, sendo cada<br />
+                semana focada em uma grande área:
+              </p>
+    
+              <ul>
+                <li>Cirurgia Geral;</li>
+                <li>Clínica Médica;</li>
+                <li>Ginecologia e Obstetrícia;</li>
+                <li>Pediatria;</li>
+                <li>Preventiva;</li>
+                <li>Radiologia e Interpretação de exames<br /> laboratoriais.</li>
+              </ul>
+            </div>
+          </div>
         </div>
       </section>
 
       <section>
-        <h1>Módulos</h1>
-
-        <div class="description richeditor">
-          <p>
-            Serão <strong>6 semanas</strong> de curso, sendo cada<br />
-            semana focada em uma grande área:
-          </p>
-
-          <ul>
-            <li>Cirurgia Geral;</li>
-            <li>Clínica Médica;</li>
-            <li>Ginecologia e Obstetrícia;</li>
-            <li>Pediatria;</li>
-            <li>Preventiva;</li>
-            <li>Radiologia e Interpretação de exames<br /> laboratoriais.</li>
-          </ul>
-        </div>
-
         <div class="course_list">
           <ul>
             <li>
@@ -145,10 +151,9 @@
         <h1>Mentoria Practicus Intensive</h1>
   
         <div class="description richeditor">
-          <p>A <strong>Mentoria Mundo Revalida</strong> vai ser o seu diferencial nessa reta final!</p>
           <p>
-            O objetivo da <strong>Mentoria</strong> é oferecer treinamento periódico, e te<br />
-            preparar emocionalmente para enfrentar a <strong>Prova Prática!</strong>
+            A <strong>Mentoria Mundo Revalida</strong> vai ser o seu diferencial nessa reta final!<br />
+            O objetivo da <strong>Mentoria</strong> é oferecer treinamento periódico, e te preparar emocionalmente para enfrentar a <strong>Prova Prática!</strong>
           </p>
         </div>
 
@@ -187,7 +192,7 @@
       
               <div class="features">
                 <ul>
-                  <li><i class="far fa-calendar-alt"></i> Início: <span>dd/mm/aaaa</span></li>
+                  <li><i class="far fa-calendar-alt"></i> Início: <span>15/04/2023</span></li>
                   <li><i class="far fa-clock"></i> Duração: <span>8 semanas</span></li>
                 </ul>
               </div>
@@ -243,7 +248,7 @@
           gratuitamente o curso <strong>PRACTICUS INTENSIVE (100% online)</strong>.
         </h2>
 
-        <div class="combo_list combo_list_simplified">
+        <div class="combo_list">
           <ul>
             <li>
               <ul>
@@ -251,19 +256,184 @@
                   <div class="image">
                     <img src="@/assets/images/logo_c_practicus_presencial.png" alt="" border="0" />
                   </div>
+  
+                  <div class="year">2022.2</div>
+                  
+                  <div class="price">
+                    <div class="price_por">
+                      <span></span>
+                      <span>
+                        R$
+                        <strong>4.598</strong>
+                        <span>,00</span>
+                      </span>
+                    </div>
+                  </div>
                 </li>
-
+  
                 <li>
                   <div class="image">
                     <img src="@/assets/images/logo_c_practicus_intensive.png" alt="" border="0" />
                   </div>
+  
+                  <div class="year">2022.2 - ONLINE</div>
+                  
+                  <div class="price">
+                    <div class="price_por">
+                      <span></span>
+                      <span>
+                        R$
+                        <strong>2.998</strong>
+                        <span>,00</span>
+                      </span>
+                    </div>
+                  </div>
+                </li>
+  
+                <li>
+                  <div class="price">
+                    <div class="price_de">
+                      <span>de:</span>
+                      <span>R$ 7.596,00</span>
+                    </div>
+  
+                    <div class="price_por">
+                      <span>por:</span>
+                      <span>
+                        R$
+                        <strong>4.598</strong>
+                        <span>,00</span>
+                      </span>
+                    </div>
+                  </div>
+      
+                  <a href="" class="global_cta">Compre agora</a>
                 </li>
               </ul>
+            </li>
 
-              <div class="description">
-                Ao comprar o curso <strong>PRACTICUS PRESENCIAL</strong> você ganha<br />
-                gratuitamente o curso <strong>PRACTICUS INTENSIVE (100% online)</strong>.
-              </div>
+            <li>
+              <ul>
+                <li>
+                  <div class="image">
+                    <img src="@/assets/images/logo_c_practicus_presencial.png" alt="" border="0" />
+                  </div>
+  
+                  <div class="year">2023.1</div>
+                  
+                  <div class="price">
+                    <div class="price_por">
+                      <span></span>
+                      <span>
+                        R$
+                        <strong>4.878</strong>
+                        <span>,00</span>
+                      </span>
+                    </div>
+                  </div>
+                </li>
+  
+                <li>
+                  <div class="image">
+                    <img src="@/assets/images/logo_c_practicus_intensive.png" alt="" border="0" />
+                  </div>
+  
+                  <div class="year">2023.1 - ONLINE</div>
+                  
+                  <div class="price">
+                    <div class="price_por">
+                      <span></span>
+                      <span>
+                        R$
+                        <strong>3.178</strong>
+                        <span>,00</span>
+                      </span>
+                    </div>
+                  </div>
+                </li>
+  
+                <li>
+                  <div class="price">
+                    <div class="price_de">
+                      <span>de:</span>
+                      <span>R$ 8.056,00</span>
+                    </div>
+  
+                    <div class="price_por">
+                      <span>por:</span>
+                      <span>
+                        R$
+                        <strong>4.878</strong>
+                        <span>,00</span>
+                      </span>
+                    </div>
+                  </div>
+      
+                  <a href="" class="global_cta">Compre agora</a>
+                </li>
+              </ul>
+            </li>
+
+            <li>
+              <ul>
+                <li>
+                  <div class="image">
+                    <img src="@/assets/images/logo_c_practicus_presencial.png" alt="" border="0" />
+                  </div>
+  
+                  <div class="year">2023.2</div>
+                  
+                  <div class="price">
+                    <div class="price_por">
+                      <span></span>
+                      <span>
+                        R$
+                        <strong>5.188</strong>
+                        <span>,00</span>
+                      </span>
+                    </div>
+                  </div>
+                </li>
+  
+                <li>
+                  <div class="image">
+                    <img src="@/assets/images/logo_c_practicus_intensive.png" alt="" border="0" />
+                  </div>
+  
+                  <div class="year">2023.2 - ONLINE</div>
+                  
+                  <div class="price">
+                    <div class="price_por">
+                      <span></span>
+                      <span>
+                        R$
+                        <strong>3.368</strong>
+                        <span>,00</span>
+                      </span>
+                    </div>
+                  </div>
+                </li>
+  
+                <li>
+                  <div class="price">
+                    <div class="price_de">
+                      <span>de:</span>
+                      <span>R$ 8.556,00</span>
+                    </div>
+  
+                    <div class="price_por">
+                      <span>por:</span>
+                      <span>
+                        R$
+                        <strong>5.188</strong>
+                        <span>,00</span>
+                      </span>
+                    </div>
+                  </div>
+      
+                  <a href="" class="global_cta">Compre agora</a>
+                </li>
+              </ul>
             </li>
           </ul>
         </div>
