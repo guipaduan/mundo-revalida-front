@@ -112,7 +112,7 @@
 
                 <li>
                   <div class="image">
-                    <img src="@/assets/images/logo_c_practicus_presencial.png" alt="" border="0" />
+                    <img src="@/assets/images/logo_c_practicus_intensive.png" alt="" border="0" />
                   </div>
 
                   <div class="year">2022.2</div>
@@ -141,7 +141,7 @@
                     </div>
                   </div>
       
-                  <a href="" class="global_cta">Compre agora</a>
+                  <a :href="practicusPresencial2022_2" target="_blank" class="global_cta">Compre agora</a>
                 </li>
               </ul>
             </li>
@@ -169,7 +169,7 @@
 
                 <li>
                   <div class="image">
-                    <img src="@/assets/images/logo_c_practicus_presencial.png" alt="" border="0" />
+                    <img src="@/assets/images/logo_c_practicus_intensive.png" alt="" border="0" />
                   </div>
 
                   <div class="year">2023.1</div>
@@ -226,7 +226,7 @@
 
                 <li>
                   <div class="image">
-                    <img src="@/assets/images/logo_c_practicus_presencial.png" alt="" border="0" />
+                    <img src="@/assets/images/logo_c_practicus_intensive.png" alt="" border="0" />  
                   </div>
 
                   <div class="year">2023.2</div>
@@ -269,19 +269,29 @@
 
 <script>
 export default {
-    name: 'PracticusPresencial',
-    components: {
-        
+  name: "DiscursiveMaster",
+
+  mounted() {
+    this.$nextTick(() => {
+        const el = document.querySelector('#topo');
+        el && el.scrollIntoView({behavior: 'instant'});
+    })
+  },
+
+  computed: {
+    practicusPresencial2022_2() {
+      return `https://pay.herospark.com/practicus-presencial-2022-2-83806`;
     }
-}
+  }
+};
 </script>
 
 <style scoped lang="scss">
-  .subtitle_highlight {
-    color: #000;
-    font-weight: bold !important;
-    width: fit-content;
-    margin: 25px auto 0;
-    background: #BF9213;
-  }
+.subtitle_highlight {
+  color: #000;
+  font-weight: bold !important;
+  width: fit-content;
+  margin: 25px auto 0;
+  background: #bf9213;
+}
 </style>

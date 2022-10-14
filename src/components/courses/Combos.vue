@@ -81,7 +81,7 @@
                   <span>R$ 878,00</span>
                 </div>
     
-                <a href="" class="global_cta">Compre agora</a>
+                <a :href="comboStrikeDiscursiveMaster2023_1" target="_blank" class="global_cta">Compre agora</a>
               </li>
             </ul>
 
@@ -215,7 +215,7 @@
                   </div>
                 </div>
     
-                <a href="" class="global_cta">Compre agora</a>
+                <a :href="comboPracticusPresencial2022_2" target="_blank" class="global_cta">Compre agora</a>
               </li>
             </ul>
 
@@ -531,9 +531,23 @@
 <script>
 export default {
     name: 'DiscursiveMaster',
-    components: {
-        
-    }
+
+    mounted() {
+      this.$nextTick(() => {
+          const el = document.querySelector('#topo');
+          el && el.scrollIntoView();
+      })
+    },
+
+    computed: {
+      comboStrikeDiscursiveMaster2023_1() {
+        return `https://pay.herospark.com/combo-discursiva-master-strike-80396`;
+      },
+
+      comboPracticusPresencial2022_2() {
+        return `https://pay.herospark.com/practicus-presencial-2022-2-83806`;
+      }
+    },
 }
 </script>
 

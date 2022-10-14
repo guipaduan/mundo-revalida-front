@@ -89,7 +89,7 @@
                 </div>
               </div>
       
-              <a href="" class="global_cta">Compre aqui</a>
+              <a :href="practicusIntensive2022_2" target="_blank" class="global_cta">Compre aqui</a>
             </li>
             
             <li>
@@ -115,7 +115,7 @@
                 </div>
               </div>
       
-              <a href="" class="global_cta">Compre aqui</a>
+              <a :href="practicusIntensive2023_1" target="_blank" class="global_cta">Compre aqui</a>
             </li>
             
             <li>
@@ -141,7 +141,7 @@
                 </div>
               </div>
       
-              <a href="" class="global_cta">Compre aqui</a>
+              <a :href="practicusIntensive2023_2" target="_blank" class="global_cta">Compre aqui</a>
             </li>
           </ul>
         </div>
@@ -209,32 +209,31 @@
             <li>
               <h2 class="title">Videoaulas</h2>
               <p class="description">
-                Aulas com didática única que vão te preparar para Prova Prática.<br /><br />
-                Estações Simuladas, com correção pelo especialista e um resumo final do tema.
+                Aulas com didática única e mnemônicos exclusivos
               </p>
             </li>
             <li>
               <h2 class="title">Plataforma</h2>
               <p class="description">
-                Plataforma exclusiva com videoaulas de alta qualidade
-              </p>
-            </li>
-            <li>
-              <h2 class="title">Área restrita do aluno</h2>
-              <p class="description">
-                Atividades da Mentoria estarão disponíveis na Plataforma
+                Área restrita do aluno
               </p>
             </li>
             <li>
               <h2 class="title">Simulado</h2>
               <p class="description">
-                Estações práticas simuladas Simulação do dia da Prova
+                Simulados periódicos e simulação do dia da prova
               </p>
             </li>
             <li>
               <h2 class="title">Lives Mundo Revalida</h2>
               <p class="description">
-                Lives semanais focadas na Prova Prática
+                Lives no Youtube e Instagram focadas na prova prática
+              </p>
+            </li>
+            <li>
+              <h2 class="title">Mentoria Practicus</h2>
+              <p class="description">
+                Treinamento semanal de estação prática
               </p>
             </li>
           </ul>
@@ -442,15 +441,15 @@
       <section>
         <h1>Aula gratuita</h1>
 
-        <div class="description richeditor">
-          <p>Nossas aulas são repletas de mnemônicos exclusivos para <strong>Prova Objetiva.</strong></p>
+        <div class="description richeditor" style="width:100%;">
+          <p>Nossas aulas são repletas de mnemônicos exclusivos para <strong>Prova Prática.</strong></p>
 
           <div class="richeditor_video">
             <figure>
               <div class="global_embed">
                 <div class="global_embed_video">
                   <div>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/TpDItKTbxOU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/VITHRAt0CvE" title="ATLS - PRACTICUS INTENSIVE - PROFESSOR VINICIUS" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                   </div>
                 </div>
               </div>
@@ -459,17 +458,265 @@
         </div>
       </section>
 
+      <section>
+        <section class="component_testimonial">
+          <a name="testimonials" />
+          <h1>Depoimentos</h1>
+          <h2>Venha fazer parte dos milhares de aprovados!</h2>
+      
+          <div class="swiper_carousel component_testimonial_carousel">
+            <swiper
+              :modules="modules"
+              :loop='true'
+              :slides-per-view='4'
+              :pagination="{
+                clickable: true,
+                dynamicBullets: true,
+                dynamicMainBullets: 3
+              }"
+              :breakpoints="{
+                0: {
+                  slidesPerView: 1
+                },
+                1200: {
+                  slidesPerView: 4
+                }
+              }"
+            >
+      
+              <swiper-slide>
+                <div>
+                  <div class="wrapper">
+                    <p class="description">
+                      Só tenho palavras de agradecimento a toda a equipe de Mundo Revalida pelo apoio e ajuda prestada para a realização desta segunda etapa da prova Revalida, professores competentes, de uma alta qualidade, para vocês só tenho palavras de GRATIDÃO. PARABÉNS PARA TODOS.
+                    </p>
+      
+                    <div class="name">Lazaro Rubem Garcia</div>
+                  </div>
+                </div>
+              </swiper-slide>
+
+              <swiper-slide>
+                <div>
+                  <div class="wrapper">
+                    <p class="description">
+                      Eu amei o curso!!! Nem tenho palavras para agradecer a existência desse curso com esses professores excelentes.<br /><br />
+                      Muito obrigado de coração aos professores desse curso maravilhoso!!
+                    </p>
+      
+                    <div class="name">Raniele Cristina Rodrigues R. de Oliveira</div>
+                  </div>
+                </div>
+              </swiper-slide>
+
+              <swiper-slide>
+                <div>
+                  <div class="wrapper">
+                    <p class="description">
+                      O curso foi perfeito, o que mais me cativou foi o fato de vocês serem tão próximos de nós, as aulas foram perfeitas e muito didáticas, as mentorias também, não eram aulas mecânicas como vemos em outros preparatórios, sentimos o carinho de vocês e a proximidade, além de ter um valor acessível...independente do resultado da prova eu quero agradecê-los por tudo e com certeza indico o curso de olhos fechados... Muito obrigado
+                    </p>
+      
+                    <div class="name">Rodrigo Fabiano de O. Neves</div>
+                  </div>
+                </div>
+              </swiper-slide>
+
+              <swiper-slide>
+                <div>
+                  <div class="wrapper">
+                    <p class="description">
+                      Só agradecer!!! Só gratidão!!!!<br /><br />
+                      Tenham certeza que super super indicarei o curso para os colegas
+                    </p>
+      
+                    <div class="name">Cristiana Maria da Conceição</div>
+                  </div>
+                </div>
+              </swiper-slide>
+
+              <swiper-slide>
+                <div>
+                  <div class="wrapper">
+                    <p class="description">
+                      Gostaria de agradecer ao Mundo Revalida por todo o suporte em aulas e treinos da prova prática.  A palavra resume gratidão.
+                    </p>
+      
+                    <div class="name">Cecilia Maria Cabral Nunes</div>
+                  </div>
+                </div>
+              </swiper-slide>
+
+              <swiper-slide>
+                <div>
+                  <div class="wrapper">
+                    <p class="description">
+                      Gostei muito do Practicus Intensive!<br />
+                      Pia, Juan, Marcus Vinicius.  SÂO FANTÁSTICOS, SEM PALAVRAS,  para elogiar.
+                      Prof. Fabio Nogueira deu um show na preventiva.
+                      Hoje só me lembrava dele na escala de Fergstrom !!!
+                      Professora Bia da pediatria, MARAVILHOSA !!
+                      MUITO DEDICADA, AULAS PERFEITAS !!
+                      Muita agradecida a toda equipe do Mundo Revalida !!
+
+                    </p>
+      
+                    <div class="name">Carol</div>
+                  </div>
+                </div>
+              </swiper-slide>
+
+              <swiper-slide>
+                <div>
+                  <div class="wrapper">
+                    <p class="description">
+                      Muito, mas muito obrigado Mundo Revalida, vocês fizeram a diferença.<br /><br />
+                      Lembrava de todos vocês nas minhas estações.<br /><br />
+                      Sem vocês acho que ia ser impossível abordar os temas das estações.<br /><br />
+                      O melhor curso prático do mundo
+                    </p>
+      
+                    <div class="name">Juan Carlos Cuellar</div>
+                  </div>
+                </div>
+              </swiper-slide>
+
+              <swiper-slide>
+                <div>
+                  <div class="wrapper">
+                    <p class="description">
+                      O curso foi excelente, muito bem elaborado, tanto que a maioria dos temas caíram na prova. Só tenho a agradecer pelo apoio, foi de grande importância esse curso para mim. Valeuu equipe Mundo Revalida.<br /><br />
+                      Vocês são Ferassss
+                    </p>
+      
+                    <div class="name">Kleyton Ribeiro de Araújo</div>
+                  </div>
+                </div>
+              </swiper-slide>
+
+              <swiper-slide>
+                <div>
+                  <div class="wrapper">
+                    <p class="description">
+                      Quero agradecer a Mundo Revalida pela mentoria recebida foi muito boa realmente ajudou na hora da realização da prova bem direcionado para a gente saber lidar, não travar e lutar até o último apito. Caíram quase todos os temas que vocês ensinaram! Obrigado !!!
+                    </p>
+      
+                    <div class="name">Francisco Chilo</div>
+                  </div>
+                </div>
+              </swiper-slide>
+
+              <swiper-slide>
+                <div>
+                  <div class="wrapper">
+                    <p class="description">
+                      Queria agradecer muiiito a todos os professores!! As aulas foram exatamente o que eu precisava. Não eram longas e as informações eram precisas!!! 
+                      Com certeza vou indicar para todos que conheço!!!
+                    </p>
+      
+                    <div class="name">Bianca Frez</div>
+                  </div>
+                </div>
+              </swiper-slide>
+
+              <swiper-slide>
+                <div>
+                  <div class="wrapper">
+                    <p class="description">
+                      Estou muito agradecido com a equipe mundo revalida.  Vocês estão de parabéns.  Aceitaram quase todas as estações.  Foi uma ótima experiência.  Já estou indicando seu curso.
+                    </p>
+      
+                    <div class="name">Ernesto Valdes Gordillo</div>
+                  </div>
+                </div>
+              </swiper-slide>
+
+              <!-- <swiper-slide>
+                <div>
+                  <div class="wrapper">
+                    <p class="description">
+                      Conheci o MUNDO REVALIDA no ano passado, quando precisei de recursos para a prova prática 2021. Fiquei muito surpresa com a qualidade dos recursos e competência da equipe envolvida, que conseguiram 9 pontos. Esse ano quando me inscrevi para uma nova oportunidade, não tive menor dúvida do curso preparatório a escolher, SIM, mais uma vez confiei no trabalho deles. Que incansáveis durante todo o curso, estiveram à nossa disposição, sempre com muita vontade e parceria…. Foram 1000!<br /><br />
+
+                      Espero não precisar fazer mais uma prova, mas se for necessário, certeza que MUNDO REVALIDA é a minha escolha.<br /><br />
+                      SÓ AGRADECER
+                    </p>
+      
+                    <div class="name">Inglid Lima Queiroz</div>
+                  </div>
+                </div>
+              </swiper-slide> -->
+
+              <swiper-slide>
+                <div>
+                  <div class="wrapper">
+                    <p class="description">
+                      A toda a equipe do Mundo Revalida! O meu muito obrigaaaaadaaaaaa!! Nossa não tenho palavras, só gratidão! Deus abençoe cada um de vocês.<br /><br />
+                      Curso de excelência! Só gratidão ao Mundo Revalida!
+                    </p>
+      
+                    <div class="name">Roberta Simões Lopes</div>
+                  </div>
+                </div>
+              </swiper-slide>
+
+              <swiper-slide>
+                <div>
+                  <div class="wrapper">
+                    <p class="description">
+                      Agradeço a Mundo Revalida, muito boas as aulas e me prepararam muito bem.
+                    </p>
+      
+                    <div class="name">Paula Requena Paz</div>
+                  </div>
+                </div>
+              </swiper-slide>
+              
+            </swiper>
+          </div>
+        </section>
+      </section>
+
     </div>
   </main>    
 </template>
 
 <script>
-export default {
-  name: 'PracticusIntensive',
-  components: {
+import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
+import { Swiper, SwiperSlide } from 'swiper/vue';
 
-  }
-}
+export default {
+  name: "PracticusIntensive",
+  components: {
+    Swiper,
+    SwiperSlide
+  },
+
+  setup() {
+    return {
+      modules: [Navigation, Pagination, Scrollbar, A11y],
+    };
+  },
+
+  mounted() {
+    this.$nextTick(() => {
+        const el = document.querySelector('#topo');
+        el && el.scrollIntoView({behavior: 'instant'});
+    })
+  },
+
+  computed: {
+    practicusIntensive2022_2() {
+      return `https://pay.herospark.com/practicus-intensive-2022-2-80174`;
+    },
+    
+    practicusIntensive2023_1() {
+      return `https://pay.herospark.com/practicus-intensive-2023-1-81543`;
+    },
+
+    practicusIntensive2023_2() {
+      return `https://pay.herospark.com/practicus-intensive-2023-2-81585`;
+    }
+  },
+};
 </script>
 
 <style scoped lang="scss">

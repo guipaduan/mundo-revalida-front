@@ -39,7 +39,8 @@ export default {
   
   @import "assets/scss/pages/combos";
   @import "assets/scss/pages/course";
-  
+  @import "assets/scss/pages/resources";
+
   @import "assets/scss/sections/about";
   @import "assets/scss/sections/combo_list";
   @import "assets/scss/sections/course_home";

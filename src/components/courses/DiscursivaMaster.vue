@@ -1,5 +1,5 @@
 <template>
-  <main id="content" class="content_course content_discursivemaster">
+  <main id="content" class="content_course content_discursivamaster">
 	  <div class="alignment">
       
       <div class="logotipo">
@@ -87,7 +87,7 @@
                 </div>
               </div>
       
-              <a href="" class="global_cta">Compre aqui</a>
+              <a :href="discursiveMaster2023_1" target="_blank" class="global_cta">Compre aqui</a>
             </li>
             
             <li>
@@ -226,7 +226,7 @@
                     <span>R$ 228,00</span>
                   </div>
       
-                  <a href="" class="global_cta">Compre agora</a>
+                  <a :href="comboStrikeDiscursiveMaster2023_1" target="_blank" class="global_cta">Compre agora</a>
                 </li>
               </ul>
             </li>
@@ -304,7 +304,7 @@
       <section>
         <h1>Aula gratuita</h1>
 
-        <div class="description richeditor">
+        <div class="description richeditor" style="width:100%;">
           <p>Nossas aulas são repletas de mnemônicos exclusivos para <strong>Prova Discursiva.</strong></p>
 
           <div class="richeditor_video">
@@ -312,7 +312,7 @@
               <div class="global_embed">
                 <div class="global_embed_video">
                   <div>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/TpDItKTbxOU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/I25X8O00B8U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                   </div>
                 </div>
               </div>
@@ -321,17 +321,229 @@
         </div>
       </section>
 
+      <section>
+        <section class="component_testimonial">
+          <a name="testimonials" />
+          <h1>Depoimentos</h1>
+          <h2>Venha fazer parte dos milhares de aprovados!</h2>
+      
+          <div class="swiper_carousel component_testimonial_carousel">
+            <swiper
+              :modules="modules"
+              :loop='true'
+              :slides-per-view='4'
+              :pagination="{
+                clickable: true,
+                dynamicBullets: true,
+                dynamicMainBullets: 3
+              }"
+              :breakpoints="{
+                0: {
+                  slidesPerView: 1
+                },
+                1200: {
+                  slidesPerView: 4
+                }
+              }"
+            >
+      
+              <swiper-slide>
+                <div>
+                  <div class="wrapper">
+                    <p class="description">
+                      Gente, boa noite! Tava vendo a aula de colangite da @Pia Simone L. Zambrano e eu tô sem palavras. Queria muito agradecer pelas dicas. Quem ainda não viu, veja essa aula pq ela deu dicas valiosas que eu já ia fazer tudo errado na prova.<br /><br />
+
+                      O que é bom a gente compartilha!!
+                    </p>
+      
+                    <div class="name">Leticia Vaz Fontenele </div>
+                  </div>
+                </div>
+              </swiper-slide>
+
+              <swiper-slide>
+                <div>
+                  <div class="wrapper">
+                    <p class="description">
+                      Professor Fabio Nogueira, fazendo eu me apaixonar por Preventiva, um caso de amor e ódio 
+                    </p>
+      
+                    <div class="name">Thais Costa Cortes </div>
+                  </div>
+                </div>
+              </swiper-slide>
+
+              <swiper-slide>
+                <div>
+                  <div class="wrapper">
+                    <p class="description">
+                      Realmente ele é nota 10 (Prof. Fabio Nogueira)
+                    </p>
+      
+                    <div class="name">Leticia Vaz Fontenele</div>
+                  </div>
+                </div>
+              </swiper-slide>
+
+              <swiper-slide>
+                <div>
+                  <div class="wrapper">
+                    <p class="description">
+                      Excelente professor (Prof. Fabio Nogueira)
+                    </p>
+      
+                    <div class="name">Elzyane Ferreira da Silva</div>
+                  </div>
+                </div>
+              </swiper-slide>
+
+              <swiper-slide>
+                <div>
+                  <div class="wrapper">
+                    <p class="description">
+                      Também gosto, o jeito de abordar é top para um tema tão cansativo (Prof. Fabio Nogueira)
+                    </p>
+      
+                    <div class="name">Zuleimy</div>
+                  </div>
+                </div>
+              </swiper-slide>
+
+              <swiper-slide>
+                <div>
+                  <div class="wrapper">
+                    <p class="description">
+                      Aiiii, sim ele é demais mesmo (Prof. Fabio Nogueira)
+                    </p>
+      
+                    <div class="name">Ju</div>
+                  </div>
+                </div>
+              </swiper-slide>
+
+              <swiper-slide>
+                <div>
+                  <div class="wrapper">
+                    <p class="description">
+                      Ele é sensacional todas as aulas foram maravilhosas!!!<br />
+                      Gratidão demais Prof. Fabio Nogueira
+                    </p>
+      
+                    <div class="name">Tahiza Saraiva</div>
+                  </div>
+                </div>
+              </swiper-slide>
+
+              <swiper-slide>
+                <div>
+                  <div class="wrapper">
+                    <p class="description">
+                      As aulas de preventiva são show com o Prof. Fabio Nogueira
+                    </p>
+      
+                    <div class="name">Lisseth</div>
+                  </div>
+                </div>
+              </swiper-slide>
+
+              <swiper-slide>
+                <div>
+                  <div class="wrapper">
+                    <p class="description">
+                      Gente infelizmente não fiz o simulado pq não terminei os vídeos ainda....
+                      Mas vendo o gabarito pude ver q foi show de bola!!!!
+                      Vcs são fodas....
+                      Vcs estão de parabéns com a atenção, o suporte que dão ao aluno... realmente com o compromisso e comprometimento que vcs têm para com a gnt (aluno)!!!!!
+                      Já fiz alguns cursinhos, mas apoio e suporte tão próximo qto vcs eu nunca tinha visto, tenham a certeza de que faz toda a diferença para cada um de nós!
+                      Obg pelo apoio nessa fase tão importante de nossas vidas e por fazerem a diferença....
+                    </p>
+      
+                    <div class="name">Hadailton Amaral Junior</div>
+                  </div>
+                </div>
+              </swiper-slide>
+
+              <swiper-slide>
+                <div>
+                  <div class="wrapper">
+                    <p class="description">
+                      Concordo plenamente! O curso é maravilhoso…espero um dia poder conhecer todos os professores! Etapa mto importante das nossas vidas, onde cada um tem diferentes desafios na vida (eu por exemplo com 3 filhinhos pequenos rsrsrs), mas tenho a certeza de que todo o nosso esforço valerá mto à pena! Vamos pq essa prova é nossa
+                    </p>
+      
+                    <div class="name">Taciana Lopes Campos</div>
+                  </div>
+                </div>
+              </swiper-slide>
+
+              <swiper-slide>
+                <div>
+                  <div class="wrapper">
+                    <p class="description">
+                      Amém Vini, ah sua aula dos segredos foi top…como todas as aulas de todos os professores
+                    </p>
+      
+                    <div class="name">Taciana Lopes Campos</div>
+                  </div>
+                </div>
+              </swiper-slide>
+
+              <swiper-slide>
+                <div>
+                  <div class="wrapper">
+                    <p class="description">
+                      Gostaria de parabenizar vocês pelo trabalho e dizer que o curso agregou muito para minha prova, que tentei seguir as dicas que também vou levar para a mina vida.
+                      Saibam que ganharam uma fã e divulgadora de vocês, fiz outros cursinhos paralelo ao de vocês e tive a certeza que o curso foi um ótimo investimento.
+                      Desejo a vocês tudo de bom!!!! E muito sucesso
+                    </p>
+      
+                    <div class="name">Nataly de Souza D. Daher</div>
+                  </div>
+                </div>
+              </swiper-slide>
+
+            </swiper>
+          </div>
+        </section>
+      </section>
+
     </div>
   </main>
 </template>
 
 <script>
+import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
+import { Swiper, SwiperSlide } from 'swiper/vue';
+
 export default {
-    name: 'DiscursiveMaster',
-    components: {
-        
+  name: "DiscursivaMaster",
+  components: {
+    Swiper,
+    SwiperSlide
+  },
+
+  setup() {
+    return {
+      modules: [Navigation, Pagination, Scrollbar, A11y],
+    };
+  },
+
+  mounted() {
+    this.$nextTick(() => {
+        const el = document.querySelector('#topo');
+        el && el.scrollIntoView();
+    })
+  },
+
+  computed: {
+    discursiveMaster2023_1() {
+      return `https://pay.herospark.com/discursiva-master-2023-1-80175`;
+    },
+
+    comboStrikeDiscursiveMaster2023_1() {
+      return `https://pay.herospark.com/combo-discursiva-master-strike-80396`;
     }
-}
+  }
+};
 </script>
 
 <style scoped lang="scss">

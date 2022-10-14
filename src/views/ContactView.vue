@@ -50,6 +50,7 @@ export default {
 
 <style scoped lang="scss">
 .content_contact {
+
   .alignment {
     & > h1 {
       margin: 0 0 25px;

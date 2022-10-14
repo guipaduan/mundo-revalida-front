@@ -1,0 +1,84 @@
+.content_resources {
+	position: relative;
+	display: block;
+
+	.alignment {
+		&:first-child {
+			
+		}
+	}
+  
+	.description.richeditor {
+		text-align: center;
+		width: fit-content;
+		margin: auto;
+
+		@include max_breakpoint(xl) {
+			br {
+				display: none;
+			}
+		}
+
+		@include max_breakpoint(xl) {
+			ul {
+				max-width: 320px;
+				margin-right: auto;
+				margin-left: auto;
+			}
+		}
+	}
+
+	section {
+		margin: 100px 0 0;
+		display: block;
+
+		&:first-child {
+			.description {
+				font-size: 26px;
+				line-height: 42px;
+		
+				@include max_breakpoint(xl) {
+					font-size: 16px;
+					line-height: 28px;
+				}
+			}
+		}
+
+		& > h1 {
+			text-align: center;
+			line-height: 48px;
+			display: block;
+			margin: 0 0 15px;
+
+			& + .course_list {
+				margin: 25px 0 0;
+			}
+		}
+
+		& > h2 {
+			text-align: center;
+			display: block;
+			margin: 0 0 15px;
+		}
+	}
+
+	.component_testimonial_carousel {
+		.swiper,
+		.swiper-container {
+			.swiper-pagination {
+				width: 82px !important;
+				padding: 0;
+				transform: translateX(15px);
+
+				@include max_breakpoint(xl) {
+					left: 50%;
+					transform: translateX(-50%);
+				}
+
+				.swiper-pagination-bullet {
+					transform: translateX(-39px);
+				}
+			}
+		}
+	}
+}

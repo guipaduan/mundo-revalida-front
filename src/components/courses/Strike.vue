@@ -87,7 +87,7 @@
                 </div>
               </div>
       
-              <a href="" class="global_cta">Compre aqui</a>
+              <a :href="strike2023_1" target="_blank" class="global_cta">Compre aqui</a>
             </li>
             
             <li>
@@ -101,7 +101,7 @@
                 <ul>
                   <li>Acesso ilimitado até o dia da prova primeira fase <strong>Revalida 2023.2</strong></li>
                   <li><i class="far fa-calendar-alt"></i> Início: <span>08/05/2023</span></li>
-                  <li><i class="far fa-clock"></i> Duração: <span>6 semanas</span></li>
+                  <li><i class="far fa-clock"></i> Duração: <span>12 semanas</span></li>
                 </ul>
               </div>
 
@@ -206,27 +206,27 @@
 
                 <li>
                   <div class="price">
-                    <div class="price_de">
-                      <span>de:</span>
-                      <span>R$ 3.746,00</span>
-                    </div>
-
-                    <div class="price_por">
-                      <span>por:</span>
-                      <span>
-                        R$
-                        <strong>3.518</strong>
-                        <span>,00</span>
-                      </span>
-                    </div>
+                  <div class="price_de">
+                    <span>de:</span>
+                    <span>R$ 4.396,00</span>
                   </div>
 
-                  <div class="economy">
-                    <span>Economia de:</span>
-                    <span>R$ 228,00</span>
+                  <div class="price_por">
+                    <span>por:</span>
+                    <span>
+                      R$
+                      <strong>3.518</strong>
+                      <span>,00</span>
+                    </span>
                   </div>
+                </div>
+
+                <div class="economy">
+                  <span>Economia de:</span>
+                  <span>R$ 878,00</span>
+                </div>
       
-                  <a href="" class="global_cta">Compre agora</a>
+                  <a :href="comboStrikeDiscursiveMaster2023_1" target="_blank" class="global_cta">Compre agora</a>
                 </li>
               </ul>
             </li>
@@ -304,15 +304,15 @@
       <section>
         <h1>Aula gratuita</h1>
 
-        <div class="description richeditor">
-          <p>Nossas aulas são repletas de mnemônicos exclusivos para <strong>Prova Objetiva.</strong></p>
+        <div class="description richeditor" style="width: 100%">
+          <p>Nossas aulas são repletas de mnemônicos exclusivos para <strong>Prova Prática.</strong></p>
 
           <div class="richeditor_video">
             <figure>
               <div class="global_embed">
                 <div class="global_embed_video">
                   <div>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/TpDItKTbxOU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/a-Emmd2HTIY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                   </div>
                 </div>
               </div>
@@ -327,11 +327,25 @@
 
 <script>
 export default {
-  name: 'Strike',
-  components: {
-      
+  name: "Strike",
+
+  mounted() {
+    this.$nextTick(() => {
+      const el = document.querySelector('#topo');
+      el && el.scrollIntoView();
+    })
+  },
+
+  computed: {
+    strike2023_1() {
+      return `https://pay.herospark.com/practicus-intensive-2023-2-81585`;
+    },
+
+    comboStrikeDiscursiveMaster2023_1() {
+      return `https://pay.herospark.com/combo-discursiva-master-strike-80396`;
+    }
   }
-}
+};
 </script>
 
 <style scoped lang="scss">
