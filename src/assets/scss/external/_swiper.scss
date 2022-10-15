@@ -242,6 +242,7 @@
 	.swiper-pagination {
 		position: absolute;
 		z-index: 10;
+		// width: fit-content !important;
 		display: flex;
 		align-items: center;
 		justify-content: center;
@@ -257,9 +258,11 @@
 			width: 12px;
 			height: 12px;
 			display: inline-block;
+			flex-shrink: 0;
 			border-radius: 50px;
 			border-color: transparent;
 			background-color: #fefefe;
+			transition: 0.15s all linear;
 
 			&-active {
 				opacity: 1;
@@ -333,12 +336,12 @@
 	 * Bullets
 	 */
 	.swiper-pagination-bullets-dynamic {
+		justify-content: inherit !important;
 		overflow: hidden;
-		font-size: 0;
 
 		.swiper-pagination-bullet {
 			position: relative;
-			transform: scale(0.33);
+			transform: scale(0);
 		}
 	
 		.swiper-pagination-bullet-active {
@@ -350,19 +353,19 @@
 		}
 	
 		.swiper-pagination-bullet-active-prev {
-			transform: scale(0.66);
+			transform: scale(1);
 		}
 	
 		.swiper-pagination-bullet-active-prev-prev {
-			transform: scale(0.33);
+			transform: scale(0);
 		}
 	
 		.swiper-pagination-bullet-active-next {
-			transform: scale(0.66);
+			transform: scale(1);
 		}
 	
 		.swiper-pagination-bullet-active-next-next {
-			transform: scale(0.33);
+			transform: scale(0);
 		}
 	}
 

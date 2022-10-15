@@ -1,10 +1,11 @@
 import { createRouter, createWebHashHistory, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import StrikeComponent from '../components/courses/Strike.vue';
-import DiscursiveMasterComponent from '@/components/courses/DiscursiveMaster.vue';
+import DiscursivaMasterComponent from '@/components/courses/DiscursivaMaster.vue';
 import PracticusIntensiveComponent from '@/components/courses/PracticusIntensive.vue';
 import PracticusPresencialComponent from '@/components/courses/PracticusPresencial.vue';
 import CombosComponent from '@/components/courses/Combos.vue';
+import ResourcesView from '@/views/ResourcesView.vue';
 import DiscursiveTest from '@/components/resources/DiscursiveTest.vue';
 import PracticleTest from '@/components/resources/PracticleTest.vue';
 import ContactComponent from '@/views/ContactView.vue';
@@ -31,9 +32,9 @@ const routes = [
     component: StrikeComponent,
   },
   {
-    path: '/curso-discursive-master',
+    path: '/curso-discursiva-master',
     name: 'discursiveMasterCourse',
-    component: DiscursiveMasterComponent,
+    component: DiscursivaMasterComponent,
   }
   ,
   {
@@ -55,6 +56,11 @@ const routes = [
   },
 
   //recursos
+  {
+    path: '/recursos',
+    name: 'ResourcesView',
+    component: ResourcesView,
+  },
   {
     path: '/recursos-prova-discursiva',
     name: 'resourceDiscursiveTest',

@@ -1,0 +1,49 @@
+.content_combos {
+	position: relative;
+	display: block;
+
+	.logotipo {
+		max-width: 620px;
+		display: block;
+		margin: 0 auto 35px;
+
+		@include max_breakpoint(xl) {
+			max-width: 320px;
+		}
+
+		img {
+			width: 100%;
+			display: block;
+		}
+
+		& + .description {
+			font-size: 26px;
+			line-height: 42px;
+
+			@include max_breakpoint(xl) {
+				font-size: 16px;
+				line-height: 28px;
+			}
+		}
+	}
+  
+	.description.richeditor {
+		text-align: center;
+		width: fit-content;
+		margin: auto;
+
+		@include max_breakpoint(xl) {
+			br {
+				display: none;
+			}
+		}
+
+		@include max_breakpoint(xl) {
+			ul {
+				max-width: 320px;
+				margin-right: auto;
+				margin-left: auto;
+			}
+		}
+	}
+}

@@ -3,7 +3,7 @@
 	  <div class="alignment">
       
       <div class="logotipo">
-        <img src="@/assets/images/logo_c_practicus_presencial_centered.png" alt="Practicus Presencial" border="0" />
+        <img src="@/assets/images/logo_c_practicus_presencial.png" alt="Practicus Presencial" border="0" />
       </div>
 
       <div class="description richeditor">
@@ -18,19 +18,17 @@
 
         <div class="description richeditor">
           <p>
-            O <strong>PRACTICUS PRESENCIAL</strong> é um treinamento presencial<br />
-            focado na prova prática do <strong>Revalida.</strong>
+            O <strong>PRACTICUS PRESENCIAL</strong> é um treinamento presencial focado na prova prática do <strong>Revalida.</strong>
           </p>
 
           <p>
-            Serão três dias inteiros de treinamento guiado por nossos professores<br />
-            onde o objetivo é te ensinar de maneira didática e sistematizar os<br />
-            checklists das provas práticas.
+            Serão três dias inteiros de treinamento guiado por nossos professores onde o objetivo é te ensinar<br />
+            de maneira didática e sistematizar os checklists das provas práticas.
           </p>
 
           <p>
-            Nosso foco é que vocês vivenciem o máximo de temas para<br />
-            <strong>Prova Prática</strong>, a fim de alcançar a excelência e aprovação!
+            Nosso foco é que vocês vivenciem o máximo de temas para <strong>Prova Prática</strong>, a fim de alcançar<br />
+            a excelência e aprovação!
           </p>
         </div>
       </section>
@@ -95,7 +93,7 @@
               <ul>
                 <li>
                   <div class="image">
-                    <img src="@/assets/images/logo_c_practicus_presencial_centered.png" alt="" border="0" />
+                    <img src="@/assets/images/logo_c_practicus_presencial.png" alt="" border="0" />
                   </div>
 
                   <div class="year">2022.2</div>
@@ -114,7 +112,7 @@
 
                 <li>
                   <div class="image">
-                    <img src="@/assets/images/logo_c_practicus_presencial_online_centered.png" alt="" border="0" />
+                    <img src="@/assets/images/logo_c_practicus_intensive.png" alt="" border="0" />
                   </div>
 
                   <div class="year">2022.2</div>
@@ -143,7 +141,7 @@
                     </div>
                   </div>
       
-                  <a href="" class="global_cta">Compre agora</a>
+                  <a :href="practicusPresencial2022_2" target="_blank" class="global_cta">Compre agora</a>
                 </li>
               </ul>
             </li>
@@ -152,7 +150,7 @@
               <ul>
                 <li>
                   <div class="image">
-                    <img src="@/assets/images/logo_c_practicus_presencial_centered.png" alt="" border="0" />
+                    <img src="@/assets/images/logo_c_practicus_presencial.png" alt="" border="0" />
                   </div>
 
                   <div class="year">2023.1</div>
@@ -171,7 +169,7 @@
 
                 <li>
                   <div class="image">
-                    <img src="@/assets/images/logo_c_practicus_presencial_online_centered.png" alt="" border="0" />
+                    <img src="@/assets/images/logo_c_practicus_intensive.png" alt="" border="0" />
                   </div>
 
                   <div class="year">2023.1</div>
@@ -209,7 +207,7 @@
               <ul>
                 <li>
                   <div class="image">
-                    <img src="@/assets/images/logo_c_practicus_presencial_centered.png" alt="" border="0" />
+                    <img src="@/assets/images/logo_c_practicus_presencial.png" alt="" border="0" />
                   </div>
 
                   <div class="year">2023.2</div>
@@ -228,7 +226,7 @@
 
                 <li>
                   <div class="image">
-                    <img src="@/assets/images/logo_c_practicus_presencial_online_centered.png" alt="" border="0" />
+                    <img src="@/assets/images/logo_c_practicus_intensive.png" alt="" border="0" />  
                   </div>
 
                   <div class="year">2023.2</div>
@@ -271,19 +269,29 @@
 
 <script>
 export default {
-    name: 'PracticusPresencial',
-    components: {
-        
+  name: "DiscursiveMaster",
+
+  mounted() {
+    this.$nextTick(() => {
+        const el = document.querySelector('#topo');
+        el && el.scrollIntoView({behavior: 'instant'});
+    })
+  },
+
+  computed: {
+    practicusPresencial2022_2() {
+      return `https://pay.herospark.com/practicus-presencial-2022-2-83806`;
     }
-}
+  }
+};
 </script>
 
 <style scoped lang="scss">
-  .subtitle_highlight {
-    color: #000;
-    font-weight: bold !important;
-    width: fit-content;
-    margin: 25px auto 0;
-    background: #BF9213;
-  }
+.subtitle_highlight {
+  color: #000;
+  font-weight: bold !important;
+  width: fit-content;
+  margin: 25px auto 0;
+  background: #bf9213;
+}
 </style>

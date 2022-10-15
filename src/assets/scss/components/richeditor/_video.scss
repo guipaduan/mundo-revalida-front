@@ -1,7 +1,9 @@
 &_video {
 	position: relative;
 	width: 100%;
+	max-width: 992px;
 	display: block;
+	margin: auto;
 	
 	figure {
 		display: block;

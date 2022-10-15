@@ -13,7 +13,7 @@
       <ul>
         <li>
           <div class="icon"><i class="fas fa-star"></i></div>
-          <p class="title">Didática<br /> Inigualável</p>
+          <p class="title">Didática<br /> Única</p>
         </li>
         <li>
           <div class="icon"><i class="fas fa-users"></i></div>

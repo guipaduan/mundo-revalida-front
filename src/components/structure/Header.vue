@@ -1,4 +1,5 @@
 <template>
+  <div id="topo"></div>
 	<header id="header">
     <div class="alignment">
 
@@ -92,6 +93,15 @@ export default {
   name: 'StructureHeader',
   props: {
     
+  },
+
+  mounted() {
+    this.$nextTick(() => {
+      console.log(this.$route.hash);
+      const el = document.querySelector('#topo');
+      console.log(el);
+      el && el.scrollIntoView();
+    })
   },
 
   computed: {

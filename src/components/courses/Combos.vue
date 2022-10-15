@@ -2,8 +2,13 @@
   <main id="content" class="content_combos">
     <div class="alignment">
       
-      <h1>Combos Mundo Revalida</h1>
-      <h2>Compre junto e receba um desconto especial</h2>
+      <div class="logotipo">
+        <img src="@/assets/images/logo_c_combos.png" alt="Combos Mundo Revalida" border="0" />
+      </div>
+
+      <div class="description richeditor">
+        <p>Compre junto e receba um desconto especial</p>
+      </div>
 
       <div class="combo_list">
         <div class="title">Combos primeira fase revalida INEP</div>
@@ -33,7 +38,7 @@
 
               <li>
                 <div class="image">
-                  <img src="@/assets/images/logo_c_discursive_master_centered.png" alt="" border="0" />
+                  <img src="@/assets/images/logo_c_discursive_master.png" alt="" border="0" />
                 </div>
 
                 <div class="year">2023.1</div>
@@ -51,6 +56,10 @@
               </li>
 
               <li>
+                <div class="discount">
+                  <strong>20%</strong> de desconto
+                </div>
+
                 <div class="price">
                   <div class="price_de">
                     <span>de:</span>
@@ -72,7 +81,7 @@
                   <span>R$ 878,00</span>
                 </div>
     
-                <a href="" class="global_cta">Compre agora</a>
+                <a :href="comboStrikeDiscursiveMaster2023_1" target="_blank" class="global_cta">Compre agora</a>
               </li>
             </ul>
 
@@ -99,7 +108,7 @@
 
               <li>
                 <div class="image">
-                  <img src="@/assets/images/logo_c_discursive_master_centered.png" alt="" border="0" />
+                  <img src="@/assets/images/logo_c_discursive_master.png" alt="" border="0" />
                 </div>
 
                 <div class="year">2023.2</div>
@@ -117,6 +126,10 @@
               </li>
 
               <li>
+                <div class="discount">
+                  <strong>20%</strong> de desconto
+                </div>
+
                 <div class="price">
                   <div class="price_de">
                     <span>de:</span>
@@ -154,7 +167,7 @@
             <ul>
               <li>
                 <div class="image">
-                  <img src="@/assets/images/logo_c_practicus_presencial_centered.png" alt="" border="0" />
+                  <img src="@/assets/images/logo_c_practicus_presencial.png" alt="" border="0" />
                 </div>
 
                 <div class="year">2022.2</div>
@@ -173,10 +186,10 @@
 
               <li>
                 <div class="image">
-                  <img src="@/assets/images/logo_c_practicus_presencial_online_centered.png" alt="" border="0" />
+                  <img src="@/assets/images/logo_c_practicus_intensive.png" alt="" border="0" />
                 </div>
 
-                <div class="year">2022.2</div>
+                <div class="year">2022.2 - ONLINE</div>
                 
                 <div class="price">
                   <div class="price_por">
@@ -202,7 +215,7 @@
                   </div>
                 </div>
     
-                <a href="" class="global_cta">Compre agora</a>
+                <a :href="comboPracticusPresencial2022_2" target="_blank" class="global_cta">Compre agora</a>
               </li>
             </ul>
 
@@ -210,7 +223,7 @@
             <ul>
               <li>
                 <div class="image">
-                  <img src="@/assets/images/logo_c_practicus_presencial_centered.png" alt="" border="0" />
+                  <img src="@/assets/images/logo_c_practicus_presencial.png" alt="" border="0" />
                 </div>
 
                 <div class="year">2023.1</div>
@@ -229,10 +242,10 @@
 
               <li>
                 <div class="image">
-                  <img src="@/assets/images/logo_c_practicus_presencial_online_centered.png" alt="" border="0" />
+                  <img src="@/assets/images/logo_c_practicus_intensive.png" alt="" border="0" />
                 </div>
 
-                <div class="year">2023.1</div>
+                <div class="year">2023.1 - ONLINE</div>
                 
                 <div class="price">
                   <div class="price_por">
@@ -266,7 +279,7 @@
             <ul>
               <li>
                 <div class="image">
-                  <img src="@/assets/images/logo_c_practicus_presencial_centered.png" alt="" border="0" />
+                  <img src="@/assets/images/logo_c_practicus_presencial.png" alt="" border="0" />
                 </div>
 
                 <div class="year">2023.2</div>
@@ -285,10 +298,10 @@
 
               <li>
                 <div class="image">
-                  <img src="@/assets/images/logo_c_practicus_presencial_online_centered.png" alt="" border="0" />
+                  <img src="@/assets/images/logo_c_practicus_intensive.png" alt="" border="0" />
                 </div>
 
-                <div class="year">2023.2</div>
+                <div class="year">2023.2 - ONLINE</div>
                 
                 <div class="price">
                   <div class="price_por">
@@ -351,7 +364,7 @@
 
               <li>
                 <div class="image">
-                  <img src="@/assets/images/logo_c_discursive_master_centered.png" alt="" border="0" />
+                  <img src="@/assets/images/logo_c_discursive_master.png" alt="" border="0" />
                 </div>
 
                 <div class="year">2023.1</div>
@@ -389,7 +402,7 @@
 
               <li>
                 <div class="image">
-                  <img src="@/assets/images/logo_c_discursive_master_centered.png" alt="" border="0" />
+                  <img src="@/assets/images/logo_c_discursive_master.png" alt="" border="0" />
                 </div>
 
                 <div class="year">2023.2</div>
@@ -407,6 +420,10 @@
               </li>
 
               <li>
+                <div class="discount">
+                  <strong>50%</strong> de desconto nos cursos de <strong>2023.2</strong>
+                </div>
+
                 <div class="price">
                   <div class="price_de">
                     <span>de:</span>
@@ -427,10 +444,6 @@
                   <span>Economia de:</span>
                   <span>R$ 2.334,00</span>
                 </div>
-
-                <div class="description">
-                  <strong>50%</strong> de desconto nos cursos de <strong>2023.2</strong>
-                </div>
     
                 <a href="" class="global_cta">Compre agora</a>
               </li>
@@ -441,7 +454,7 @@
             <ul>
               <li>
                 <div class="image">
-                  <img src="@/assets/images/logo_c_practicus_intensive_centered.png" alt="" border="0" />
+                  <img src="@/assets/images/logo_c_practicus_intensive.png" alt="" border="0" />
                 </div>
 
                 <div class="year">2023.1</div>
@@ -460,7 +473,7 @@
 
               <li>
                 <div class="image">
-                  <img src="@/assets/images/logo_c_practicus_intensive_centered.png" alt="" border="0" />
+                  <img src="@/assets/images/logo_c_practicus_intensive.png" alt="" border="0" />
                 </div>
 
                 <div class="year">2023.2</div>
@@ -478,6 +491,10 @@
               </li>
 
               <li>
+                <div class="discount">
+                  <strong>50%</strong> de desconto<br /> nos cursos de <strong>2023.2</strong>
+                </div>
+
                 <div class="price">
                   <div class="price_de">
                     <span>de:</span>
@@ -498,10 +515,6 @@
                   <span>Economia de:</span>
                   <span>R$ 1.308,00</span>
                 </div>
-
-                <div class="description">
-                  <strong>50%</strong> de desconto<br /> nos cursos de <strong>2023.2</strong>
-                </div>
     
                 <a href="" class="global_cta">Compre agora</a>
               </li>
@@ -518,9 +531,23 @@
 <script>
 export default {
     name: 'DiscursiveMaster',
-    components: {
-        
-    }
+
+    mounted() {
+      this.$nextTick(() => {
+          const el = document.querySelector('#topo');
+          el && el.scrollIntoView();
+      })
+    },
+
+    computed: {
+      comboStrikeDiscursiveMaster2023_1() {
+        return `https://pay.herospark.com/combo-discursiva-master-strike-80396`;
+      },
+
+      comboPracticusPresencial2022_2() {
+        return `https://pay.herospark.com/practicus-presencial-2022-2-83806`;
+      }
+    },
 }
 </script>
 
