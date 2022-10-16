@@ -63,7 +63,6 @@ export default {
   mounted () {
     if ( $('.component_doubts ul li').length ) {
       $(document).on('click', '.component_doubts ul li .title', function() {
-        
         $(this).closest('.component_doubts ul li .title').toggleClass('active')
         $(this).next('.component_doubts ul li .description').toggle(250)
 

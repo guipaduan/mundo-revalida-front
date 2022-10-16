@@ -44,7 +44,14 @@ export default {
   name: 'ContactView',
   components: {
     
-  }
+  },
+
+  mounted() {
+    this.$nextTick(() => {
+        const el = document.querySelector('#topo');
+        el && el.scrollIntoView();
+    });
+  },
 }
 </script>
 

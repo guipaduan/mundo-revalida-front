@@ -130,19 +130,33 @@
                 </li>
 
                 <li>
-                  <div class="price">
-                    <div class="price_por">
-                      <span>por:</span>
-                      <span>
-                        R$
-                        <strong>4.598</strong>
-                        <span>,00</span>
-                      </span>
-                    </div>
+                <!-- <div class="discount">
+                  <strong>20%</strong> de desconto
+                </div> -->
+
+                <div class="price">
+                  <div class="price_de">
+                    <span>de:</span>
+                    <span>R$ 7.596,00</span>
                   </div>
-      
-                  <a :href="practicusPresencial2022_2" target="_blank" class="global_cta">Compre agora</a>
-                </li>
+
+                  <div class="price_por">
+                    <span>por:</span>
+                    <span>
+                      R$
+                      <strong>R$4.598</strong>
+                      <span>,00</span>
+                    </span>
+                  </div>
+                </div>
+
+                <!-- <div class="economy">
+                  <span>Economia de:</span>
+                  <span>R$ 2.998,00</span>
+                </div> -->
+    
+                <a :href="comboPracticusPresencial2022_2" target="_blank" class="global_cta">Compre agora</a>
+              </li>
               </ul>
             </li>
             
@@ -155,7 +169,7 @@
 
                   <div class="year">2023.1</div>
                   
-                  <div class="price">
+                  <!-- <div class="price">
                     <div class="price_por">
                       <span></span>
                       <span>
@@ -164,7 +178,7 @@
                         <span>,00</span>
                       </span>
                     </div>
-                  </div>
+                  </div> -->
                 </li>
 
                 <li>
@@ -174,7 +188,7 @@
 
                   <div class="year">2023.1</div>
                   
-                  <div class="price">
+                  <!-- <div class="price">
                     <div class="price_por">
                       <span></span>
                       <span>
@@ -183,10 +197,10 @@
                         <span>,00</span>
                       </span>
                     </div>
-                  </div>
+                  </div> -->
                 </li>
 
-                <li>
+                <!-- <li>
                   <div class="price">
                     <div class="price_por">
                       <span>por:</span>
@@ -199,7 +213,8 @@
                   </div>
       
                   <a href="" class="global_cta">Compre agora</a>
-                </li>
+                </li> -->
+                <a :href="practicusIntensive2023_1" target="_blank" class="global_cta">Clique para saber mais</a>
               </ul>
             </li>
 
@@ -212,7 +227,7 @@
 
                   <div class="year">2023.2</div>
                   
-                  <div class="price">
+                  <!-- <div class="price">
                     <div class="price_por">
                       <span></span>
                       <span>
@@ -221,7 +236,7 @@
                         <span>,00</span>
                       </span>
                     </div>
-                  </div>
+                  </div> -->
                 </li>
 
                 <li>
@@ -231,7 +246,7 @@
 
                   <div class="year">2023.2</div>
                   
-                  <div class="price">
+                  <!-- <div class="price">
                     <div class="price_por">
                       <span></span>
                       <span>
@@ -240,10 +255,10 @@
                         <span>,00</span>
                       </span>
                     </div>
-                  </div>
+                  </div> -->
                 </li>
 
-                <li>
+                <!-- <li>
                   <div class="price">
                     <div class="price_por">
                       <span>por:</span>
@@ -256,7 +271,8 @@
                   </div>
       
                   <a href="" class="global_cta">Compre agora</a>
-                </li>
+                </li> -->
+                <a :href="practicusIntensive2023_2" target="_blank" class="global_cta">Clique para saber mais</a>
               </ul>
             </li>
           </ul>
@@ -274,24 +290,32 @@ export default {
   mounted() {
     this.$nextTick(() => {
         const el = document.querySelector('#topo');
-        el && el.scrollIntoView({behavior: 'instant'});
+        el && el.scrollIntoView();
     })
   },
 
   computed: {
     practicusPresencial2022_2() {
       return `https://pay.herospark.com/practicus-presencial-2022-2-83806`;
-    }
+    },
+
+    practicusIntensive2023_1() {
+      return `https://wa.me/5511914297094`;
+    },
+
+    practicusIntensive2023_2() {
+      return `https://wa.me/5511914297094`;
+    },
   }
 };
 </script>
 
 <style scoped lang="scss">
-.subtitle_highlight {
-  color: #000;
-  font-weight: bold !important;
-  width: fit-content;
-  margin: 25px auto 0;
-  background: #bf9213;
-}
+  .subtitle_highlight {
+    color: #000;
+    font-weight: bold !important;
+    width: fit-content;
+    margin: 25px auto 0;
+    background: #bf9213;
+  }
 </style>

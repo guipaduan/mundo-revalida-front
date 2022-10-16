@@ -1,5 +1,6 @@
 <template>
   <section class="component_resource_home">
+    <div id="resources"></div>
     <a name="resources" />
 
     <h1>Recursos Individuais</h1>
@@ -16,7 +17,7 @@
           da <strong>Prova Discursiva</strong>
         </p>
 
-        <router-link :to="{name: 'resourceDiscursiveTest'}">
+        <router-link :to="{name: 'resources'}">
           <a href="" class="global_cta global_cta_red">Saiba mais</a>
         </router-link>
         
@@ -32,7 +33,7 @@
           da <strong>Prova Prática</strong>
         </p>
 
-        <router-link :to="{name: 'resourcePracticleTest'}">
+        <router-link :to="{name: 'resources'}">
           <a href="" class="global_cta global_cta_red">Saiba mais</a>
         </router-link>
       </li>

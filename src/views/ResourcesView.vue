@@ -2,11 +2,13 @@
 	<main id="content" class="content_resources">
     <div class="alignment">
       <section>
-        <h1>Recursos</h1>
+        <div class="logotipo">
+          <img src="@/assets/images/logo_recursos_individuais.png" alt="Recuros Individuais" border="0" />
+        </div>
   
         <div class="description richeditor">
           <p>
-            Nós somos pioneiros em elaboração de recursos,e contamos com a experiência de milhares de recursos já realizados!
+            Nós somos pioneiros em elaboração de recursos, e contamos com a experiência de milhares de recursos já realizados!
             Somos especialistas em recursos gerais e individuais, tanto para <strong>PRIMEIRA FASE</strong>, quanto para <strong>SEGUNDA FASE!</strong>
           </p>
         </div>
@@ -64,7 +66,7 @@
                 <img src="@/assets/images/logo_p_discursiva.png" alt="" border="0" />
               </div>
 
-              <div class="subtitle">Recursos individual</div>
+              <div class="subtitle">Recurso individual</div>
       
               <div class="features">
                 <ul>
@@ -99,7 +101,7 @@
                 <img src="@/assets/images/logo_p_pratica.png" alt="" border="0" />
               </div>
 
-              <div class="subtitle">Recursos individual</div>
+              <div class="subtitle">Recurso individual</div>
       
               <div class="features">
                 <ul>
@@ -164,13 +166,11 @@
                       Passando para agradecer os 13,75 pontos que vocês me ajudaram a conseguir
                       Vou ser grata eternamente à Equipe
                       Vocês foram uns anjos em minha vida!<br /><br />
-
                       Lembro de pedir uma vaga para vocês antes da prova prática do revalida 2021. Tamanho era meu medo de não ter uma correção honesta. Quando saiu o resultado, foi o que eu esperava… Inep não me deu a pontuação que eu merecia. 
                       Deixei nas mãos do Mundo Revalida. Vocês pediram 21,95 pontos. O Inep aceitou 13,75. Mais que o suficiente para ser aprovada. 
                       Vou ser imensamente grata à equipe Mundo Revalida. 
                       Deus abençoe vocês por me permitirem ter o que era meu por direito.
                       Melhor investimento da vida!
-
                     </p>
       
                     <div class="name">Francine Ragagnin Pissolato</div>	
@@ -390,6 +390,169 @@
                   </div>
                 </div>
               </swiper-slide>
+
+              <swiper-slide>
+                <div>
+                  <div class="wrapper">
+                    <p class="description">
+                      OBRIGADAAAAAAA POR TODO O EMPENHO EM FAZER MEUS RECURSOS!!! <br /><br />
+                      GRAÇAS A DEUS, PASSEI!!!!! <br><br>
+                      10,03 PONTOS DEFERIDOS!!!!
+                    </p>
+      
+                    <div class="name">Luma Mariana T. Freire</div>
+                  </div>
+                </div>
+              </swiper-slide>
+
+              <swiper-slide>
+                <div>
+                  <div class="wrapper">
+                    <p class="description">
+                      Olá! Gente vocês são incríveis!!!!! Mesmo quando não acreditei que fosse possível, vocês me tomaram da mão e fizeram acontecer!!! Muitíssimo obrigado a toda a equipe do Mundo Revalida!!! Vocês são “fod*”,10 pontos consegui graças a seu trabalho de excelência!!!
+                    </p>
+      
+                    <div class="name">Roberto Savigne Silveira</div>
+                  </div>
+                </div>
+              </swiper-slide>
+
+              <swiper-slide>
+                <div>
+                  <div class="wrapper">
+                    <p class="description">
+                      Obrigado MUNDO REVALIDA
+                      Não tenho palavras para agradecer por tanto apoio, em especial para a prova discursiva. 
+                      O carinho e atenção dada para cada aluno, a ligação que recebi da equipe para receber dicas e detalhes importantíssimos para gabaritar a prova teórica.
+                      Vocês foram fundamentais
+                    </p>
+      
+                    <div class="name">Pedro Figueiredo</div>
+                  </div>
+                </div>
+              </swiper-slide>
+
+              <swiper-slide>
+                <div>
+                  <div class="wrapper">
+                    <p class="description">
+                      Aprovado!!!! <br><br>
+                      Pessoal, passando para agradecer vocês. De coração. Vcs fizeram parte da minha vitória!
+                    </p>
+      
+                    <div class="name">Charles da Silva Charles Oliveira</div>
+                  </div>
+                </div>
+              </swiper-slide>
+
+              <swiper-slide>
+                <div>
+                  <div class="wrapper">
+                    <p class="description">
+                      Gostaria de agradecer o trabalho de vocês
+                      Aprovada na 1a fase do revalida
+                      10 pontos de recurso
+                    </p>
+      
+                    <div class="name">Ludmilla Moreira Bastos</div>
+                  </div>
+                </div>
+              </swiper-slide>
+
+              <swiper-slide>
+                <div>
+                  <div class="wrapper">
+                    <p class="description">
+                      Gostaria de agradecer ao Mundo Revalida pelo excelente trabalho e dedicação com os recursos feitos! Quase 10 pontos mais que merecidos conseguiram! Muito obrigada! Valeu muito a pena! Super recomendo
+                    </p>
+      
+                    <div class="name">Sofia Perrone Ferreira</div>
+                  </div>
+                </div>
+              </swiper-slide>
+
+              <swiper-slide>
+                <div>
+                  <div class="wrapper">
+                    <p class="description">
+                      Venho agradecer, ao Mundo Revalida, VOCÊS SÃO UMAS FERAAAAS…. Consegui 9,95 pontos
+                      Aprovaaaaadoooooo!
+                      Vocês são muito feraaaaaaa
+                      Obrigado vocês… de verdade to muito felizzzzz
+                    </p>
+      
+                    <div class="name">Antonio Marcus S. Lessa</div>
+                  </div>
+                </div>
+              </swiper-slide>
+
+              <swiper-slide>
+                <div>
+                  <div class="wrapper">
+                    <p class="description">
+                      Muito obrigado!!! E parabéns pelo trabalho!!! Com a ajuda de vocês consegui essa vitória! 9,65 pontos conquistados!
+                    </p>
+      
+                    <div class="name">Lucas Lago</div>
+                  </div>
+                </div>
+              </swiper-slide>
+
+              <swiper-slide>
+                <div>
+                  <div class="wrapper">
+                    <p class="description">
+                      Muito obrigado a todos do Mundo Revalida!!! 9,25 pontos de recurso
+                    </p>
+      
+                    <div class="name">Fabiomar Agostini Bento</div>
+                  </div>
+                </div>
+              </swiper-slide>
+
+              <swiper-slide>
+                <div>
+                  <div class="wrapper">
+                    <p class="description">
+                      Graças a Deus e com ajuda de vocês passei na prova. Precisava 5.15 e ganhei 8,5 pontos
+                      Gratidão a equipe Mundo Revalida, obrigada pela conquista de 8,5 pontos
+                      Recomendo muito vocês!!!
+                    </p>
+      
+                    <div class="name">Elidaini Moreira Cobas</div>
+                  </div>
+                </div>
+              </swiper-slide>
+
+              <swiper-slide>
+                <div>
+                  <div class="wrapper">
+                    <p class="description">
+                      PASSEEEEEEEIIII
+                      8,4 pontos de recurso
+                      Muito obrigado por terem me ajudado nessa fase!!!!
+                      Vocês são 10!
+                    </p>
+      
+                    <div class="name">Kayque Wellek D. do Amaral</div>
+                  </div>
+                </div>
+              </swiper-slide>
+
+              <swiper-slide>
+                <div>
+                  <div class="wrapper">
+                    <p class="description">
+                      Obrigada Mundo Revalida pelo suporte e toda atenção!!! Mais de 8 pontos!!
+                      Muito mais do que eu precisava!!
+                      Vocês são TOPS!! super indico!!
+                    </p>
+      
+                    <div class="name">Sara Susa Zozimo</div>
+                  </div>
+                </div>
+              </swiper-slide>
+
             </swiper>
           </div>
         </section>
@@ -401,22 +564,27 @@
 <script>
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/vue';
-
 export default {
   name: 'ResourcesView',
   components: {
     Swiper,
     SwiperSlide
   },
-
+  
   setup() {
     return {
       modules: [Navigation, Pagination, Scrollbar, A11y],
     };
-  }
+  },
+
+  mounted() {
+    this.$nextTick(() => {
+        const el = document.querySelector('#topo');
+        el && el.scrollIntoView();
+    })
+  },
 }
 </script>
 
 <style scoped lang="scss">
-
 </style>

@@ -151,7 +151,7 @@
                   <span>R$ 928,00</span>
                 </div>
     
-                <a href="" class="global_cta">Compre agora</a>
+                <a :href="comboStrikeDiscursiveMaster2023_2" target="_blank" class="global_cta">Compre agora</a>
               </li>
             </ul>
           </li>
@@ -204,6 +204,35 @@
               </li>
 
               <li>
+                <!-- <div class="discount">
+                  <strong>20%</strong> de desconto
+                </div> -->
+
+                <div class="price">
+                  <div class="price_de">
+                    <span>de:</span>
+                    <span>R$ 7.596,00</span>
+                  </div>
+
+                  <div class="price_por">
+                    <span>por:</span>
+                    <span>
+                      R$
+                      <strong>R$4.598</strong>
+                      <span>,00</span>
+                    </span>
+                  </div>
+                </div>
+
+                <!-- <div class="economy">
+                  <span>Economia de:</span>
+                  <span>R$ 2.998,00</span>
+                </div> -->
+    
+                <a :href="comboPracticusPresencial2022_2" target="_blank" class="global_cta">Compre agora</a>
+              </li>
+
+              <!-- <li>
                 <div class="price">
                   <div class="price_por">
                     <span>por:</span>
@@ -216,7 +245,7 @@
                 </div>
     
                 <a :href="comboPracticusPresencial2022_2" target="_blank" class="global_cta">Compre agora</a>
-              </li>
+              </li> -->
             </ul>
 
             <div class="title">Segunda fase revalida INEP <strong>2023.1</strong></div>
@@ -228,7 +257,7 @@
 
                 <div class="year">2023.1</div>
                 
-                <div class="price">
+                <!-- <div class="price">
                   <div class="price_por">
                     <span></span>
                     <span>
@@ -237,7 +266,7 @@
                       <span>,00</span>
                     </span>
                   </div>
-                </div>
+                </div> -->
               </li>
 
               <li>
@@ -247,7 +276,7 @@
 
                 <div class="year">2023.1 - ONLINE</div>
                 
-                <div class="price">
+                <!-- <div class="price">
                   <div class="price_por">
                     <span></span>
                     <span>
@@ -256,10 +285,10 @@
                       <span>,00</span>
                     </span>
                   </div>
-                </div>
+                </div> -->
               </li>
-
-              <li>
+              <a :href="comboPracticus2023_1" target="_blank" class="global_cta">Clique para saber mais</a>
+              <!-- <li>
                 <div class="price">
                   <div class="price_por">
                     <span>por:</span>
@@ -271,8 +300,8 @@
                   </div>
                 </div>
     
-                <a href="" class="global_cta">Compre agora</a>
-              </li>
+                <a href="" class="global_cta">Clique para saber mais</a>
+              </li> -->
             </ul>
 
             <div class="title">Segunda fase revalida INEP <strong>2023.2</strong></div>
@@ -284,7 +313,7 @@
 
                 <div class="year">2023.2</div>
                 
-                <div class="price">
+                <!-- <div class="price">
                   <div class="price_por">
                     <span></span>
                     <span>
@@ -293,7 +322,7 @@
                       <span>,00</span>
                     </span>
                   </div>
-                </div>
+                </div> -->
               </li>
 
               <li>
@@ -303,7 +332,7 @@
 
                 <div class="year">2023.2 - ONLINE</div>
                 
-                <div class="price">
+                <!-- <div class="price">
                   <div class="price_por">
                     <span></span>
                     <span>
@@ -312,10 +341,10 @@
                       <span>,00</span>
                     </span>
                   </div>
-                </div>
+                </div> -->
               </li>
-
-              <li>
+              <a :href="comboPracticus2023_2" target="_blank" class="global_cta">Clique para saber mais</a>
+              <!-- <li>
                 <div class="price">
                   <div class="price_por">
                     <span>por:</span>
@@ -328,7 +357,7 @@
                 </div>
     
                 <a href="" class="global_cta">Compre agora</a>
-              </li>
+              </li> -->
             </ul>
           </li>
         </ul>
@@ -449,7 +478,7 @@
               </li>
             </ul>
 
-            <div class="title">Combo da segunda fase 2023 integral</div>
+            <!-- <div class="title">Combo da segunda fase 2023 integral</div>
             <div class="subtitle">Acesso ao curso <strong>PRACTICUS INTENSIVE 2023.1</strong> e <strong>PRACTICUS INTENSIVE 2023.2</strong></div>
             <ul>
               <li>
@@ -518,7 +547,7 @@
     
                 <a href="" class="global_cta">Compre agora</a>
               </li>
-            </ul>
+            </ul> -->
 
           </li>
         </ul>
@@ -534,8 +563,8 @@ export default {
 
     mounted() {
       this.$nextTick(() => {
-          const el = document.querySelector('#topo');
-          el && el.scrollIntoView();
+        const el = document.querySelector('#topo');
+        el && el.scrollIntoView();
       })
     },
 
@@ -546,7 +575,19 @@ export default {
 
       comboPracticusPresencial2022_2() {
         return `https://pay.herospark.com/practicus-presencial-2022-2-83806`;
-      }
+      },
+
+      comboStrikeDiscursiveMaster2023_2() {
+        return `https://pay.herospark.com/combo-strike-discursiva-master-2023-2-84360`;
+      },
+
+      comboPracticus2023_1() {
+        return `https://wa.me/5511914297094`;
+      },
+
+      comboPracticus2023_2() {
+        return `https://wa.me/5511914297094`;
+      },
     },
 }
 </script>

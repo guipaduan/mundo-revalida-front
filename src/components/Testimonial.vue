@@ -1,6 +1,8 @@
 <template>
   <section class="component_testimonial">
-    <a name="testimonials" />
+    <div id="testemonial"></div>
+    <a name="testeimonial" />
+    
     <h1>Depoimentos</h1>
     <h2>Veja um pouco da opinião dos nossos alunos</h2>
 
@@ -94,7 +96,7 @@ export default {
     return {
       modules: [Navigation, Pagination, Scrollbar, A11y],
     };
-  }
+  },
 }
 </script>
 

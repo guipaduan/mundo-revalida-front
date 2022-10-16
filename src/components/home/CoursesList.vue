@@ -1,6 +1,8 @@
 <template>
   <section class="component_course_home">
+    <div id="courses"></div>
     <a name="courses" />
+    
     <h1>Cursos</h1>
 
     <ul>
@@ -13,8 +15,8 @@
           Curso totalmente focado na <strong>Prova Objetiva</strong> do Revalida!
         </p>
 
-        <a href="" class="global_cta">Inscreva-se agora!</a>
-        <router-link :to="{name: 'strikeCourse'}" class="local_cta">Saiba mais</router-link>
+        <a :href="strike2023_1" target="_blank" class="global_cta">Inscreva-se agora!</a>
+        <router-link :to="{name: 'strikeCourse',}" class="local_cta">Saiba mais</router-link>
       </li>
 
       <li>
@@ -26,8 +28,8 @@
           O primeiro curso específico para <strong>Prova Discursiva</strong> do Revalida!
         </p>
 
-        <a href="" class="global_cta">Inscreva-se agora!</a>
-        <router-link :to="{name: 'discursiveMasterCourse'}" class="local_cta">Saiba mais</router-link>
+        <a :href="discursiveMaster2023_1" target="_blank" class="global_cta">Inscreva-se agora!</a>
+        <router-link :to="{name: 'discursiveMasterCourse',}" class="local_cta">Saiba mais</router-link>
       </li>
 
       <li>
@@ -39,8 +41,8 @@
           Curso e Mentoria exclusiva, focados na <strong>Prova Prática</strong> do Revalida!
         </p>
 
-        <a href="" class="global_cta">Inscreva-se agora!</a>
-        <router-link :to="{name: 'practicusIntensiveCourse'}" class="local_cta">Saiba mais</router-link>
+        <a :href="practicusIntensive2022_2" target="_blank" class="global_cta">Inscreva-se agora!</a>
+        <router-link :to="{name: 'practicusIntensiveCourse',}" class="local_cta">Saiba mais</router-link>
       </li>
 
       <li data-width="half">
@@ -53,8 +55,8 @@
           Serão <strong>três dias</strong> de treinamento intenso focado na <strong>Prova Prática</strong> do Revalida!
         </p>
 
-        <a href="" class="global_cta">Inscreva-se agora!</a>
-        <router-link :to="{name: 'practicusPresencialCourse'}" class="local_cta">Saiba mais</router-link>
+        <a :href="practicusPresencial2022_2" target="_blank" class="global_cta">Inscreva-se agora!</a>
+        <router-link :to="{name: 'practicusPresencialCourse',}" class="local_cta">Saiba mais</router-link>
       </li>
 
       <li data-width="half">
@@ -67,7 +69,7 @@
             Compre junto e receba um desconto especial!
           </p>
 
-          <router-link :to="{name: 'combos'}" class="global_cta">Saiba mais</router-link>
+          <router-link :to="{name: 'combos',}" class="global_cta">Saiba mais</router-link>
         </div>
       </li>
 
@@ -120,7 +122,25 @@ export default {
   name: 'HomeCoursesList',
   props: {
     
-  }
+  },
+
+  computed: {
+    strike2023_1() {
+      return `https://pay.herospark.com/strike-2023-1-80176`;
+    },
+
+    discursiveMaster2023_1() {
+      return `https://pay.herospark.com/discursiva-master-2023-1-80175`;
+    },
+
+    practicusIntensive2022_2() {
+      return `https://pay.herospark.com/practicus-intensive-2022-2-80174`;
+    },
+
+    practicusPresencial2022_2() {
+      return `https://pay.herospark.com/practicus-presencial-2022-2-83806`;
+    }
+  },
 }
 </script>
 

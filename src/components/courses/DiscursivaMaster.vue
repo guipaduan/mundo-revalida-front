@@ -113,7 +113,7 @@
                 </div>
               </div>
       
-              <a href="" class="global_cta">Compre aqui</a>
+              <a :href="discursiveMaster2023_2" target="_blank" class="global_cta">Compre aqui</a>
             </li>
           </ul>
         </div>
@@ -293,7 +293,7 @@
                     <span>R$ 928,00</span>
                   </div>
       
-                  <a href="" class="global_cta">Compre agora</a>
+                  <a :href="comboStrikeDiscursiveMaster2023_2" target="_blank" class="global_cta">Compre agora</a>
                 </li>
               </ul>
             </li>
@@ -326,7 +326,7 @@
           <a name="testimonials" />
           <h1>Depoimentos</h1>
           <h2>Venha fazer parte dos milhares de aprovados!</h2>
-      
+
           <div class="swiper_carousel component_testimonial_carousel">
             <swiper
               :modules="modules"
@@ -346,106 +346,6 @@
                 }
               }"
             >
-      
-              <swiper-slide>
-                <div>
-                  <div class="wrapper">
-                    <p class="description">
-                      Gente, boa noite! Tava vendo a aula de colangite da @Pia Simone L. Zambrano e eu tô sem palavras. Queria muito agradecer pelas dicas. Quem ainda não viu, veja essa aula pq ela deu dicas valiosas que eu já ia fazer tudo errado na prova.<br /><br />
-
-                      O que é bom a gente compartilha!!
-                    </p>
-      
-                    <div class="name">Leticia Vaz Fontenele </div>
-                  </div>
-                </div>
-              </swiper-slide>
-
-              <swiper-slide>
-                <div>
-                  <div class="wrapper">
-                    <p class="description">
-                      Professor Fabio Nogueira, fazendo eu me apaixonar por Preventiva, um caso de amor e ódio 
-                    </p>
-      
-                    <div class="name">Thais Costa Cortes </div>
-                  </div>
-                </div>
-              </swiper-slide>
-
-              <swiper-slide>
-                <div>
-                  <div class="wrapper">
-                    <p class="description">
-                      Realmente ele é nota 10 (Prof. Fabio Nogueira)
-                    </p>
-      
-                    <div class="name">Leticia Vaz Fontenele</div>
-                  </div>
-                </div>
-              </swiper-slide>
-
-              <swiper-slide>
-                <div>
-                  <div class="wrapper">
-                    <p class="description">
-                      Excelente professor (Prof. Fabio Nogueira)
-                    </p>
-      
-                    <div class="name">Elzyane Ferreira da Silva</div>
-                  </div>
-                </div>
-              </swiper-slide>
-
-              <swiper-slide>
-                <div>
-                  <div class="wrapper">
-                    <p class="description">
-                      Também gosto, o jeito de abordar é top para um tema tão cansativo (Prof. Fabio Nogueira)
-                    </p>
-      
-                    <div class="name">Zuleimy</div>
-                  </div>
-                </div>
-              </swiper-slide>
-
-              <swiper-slide>
-                <div>
-                  <div class="wrapper">
-                    <p class="description">
-                      Aiiii, sim ele é demais mesmo (Prof. Fabio Nogueira)
-                    </p>
-      
-                    <div class="name">Ju</div>
-                  </div>
-                </div>
-              </swiper-slide>
-
-              <swiper-slide>
-                <div>
-                  <div class="wrapper">
-                    <p class="description">
-                      Ele é sensacional todas as aulas foram maravilhosas!!!<br />
-                      Gratidão demais Prof. Fabio Nogueira
-                    </p>
-      
-                    <div class="name">Tahiza Saraiva</div>
-                  </div>
-                </div>
-              </swiper-slide>
-
-              <swiper-slide>
-                <div>
-                  <div class="wrapper">
-                    <p class="description">
-                      As aulas de preventiva são show com o Prof. Fabio Nogueira
-                    </p>
-      
-                    <div class="name">Lisseth</div>
-                  </div>
-                </div>
-              </swiper-slide>
-
               <swiper-slide>
                 <div>
                   <div class="wrapper">
@@ -457,32 +357,8 @@
                       Já fiz alguns cursinhos, mas apoio e suporte tão próximo qto vcs eu nunca tinha visto, tenham a certeza de que faz toda a diferença para cada um de nós!
                       Obg pelo apoio nessa fase tão importante de nossas vidas e por fazerem a diferença....
                     </p>
-      
+
                     <div class="name">Hadailton Amaral Junior</div>
-                  </div>
-                </div>
-              </swiper-slide>
-
-              <swiper-slide>
-                <div>
-                  <div class="wrapper">
-                    <p class="description">
-                      Concordo plenamente! O curso é maravilhoso…espero um dia poder conhecer todos os professores! Etapa mto importante das nossas vidas, onde cada um tem diferentes desafios na vida (eu por exemplo com 3 filhinhos pequenos rsrsrs), mas tenho a certeza de que todo o nosso esforço valerá mto à pena! Vamos pq essa prova é nossa
-                    </p>
-      
-                    <div class="name">Taciana Lopes Campos</div>
-                  </div>
-                </div>
-              </swiper-slide>
-
-              <swiper-slide>
-                <div>
-                  <div class="wrapper">
-                    <p class="description">
-                      Amém Vini, ah sua aula dos segredos foi top…como todas as aulas de todos os professores
-                    </p>
-      
-                    <div class="name">Taciana Lopes Campos</div>
                   </div>
                 </div>
               </swiper-slide>
@@ -495,8 +371,131 @@
                       Saibam que ganharam uma fã e divulgadora de vocês, fiz outros cursinhos paralelo ao de vocês e tive a certeza que o curso foi um ótimo investimento.
                       Desejo a vocês tudo de bom!!!! E muito sucesso
                     </p>
-      
+
                     <div class="name">Nataly de Souza D. Daher</div>
+                  </div>
+                </div>
+              </swiper-slide>
+
+              <swiper-slide>
+                <div>
+                  <div class="wrapper">
+                    <p class="description">
+                      Gente, boa noite! Tava vendo a aula de colangite da @Pia Simone L. Zambrano e eu tô sem palavras. Queria muito agradecer pelas dicas. Quem ainda não viu, veja essa aula pq ela deu dicas valiosas que eu já ia fazer tudo errado na prova.<br /><br />
+
+                      O que é bom a gente compartilha!!
+                    </p>
+
+                    <div class="name">Leticia Vaz Fontenele </div>
+                  </div>
+                </div>
+              </swiper-slide>
+
+              <swiper-slide>
+                <div>
+                  <div class="wrapper">
+                    <p class="description">
+                      Concordo plenamente! O curso é maravilhoso…espero um dia poder conhecer todos os professores! Etapa mto importante das nossas vidas, onde cada um tem diferentes desafios na vida (eu por exemplo com 3 filhinhos pequenos rsrsrs), mas tenho a certeza de que todo o nosso esforço valerá mto à pena! Vamos pq essa prova é nossa
+                    </p>
+
+                    <div class="name">Taciana Lopes Campos</div>
+                  </div>
+                </div>
+              </swiper-slide>
+
+              <swiper-slide>
+                <div>
+                  <div class="wrapper">
+                    <p class="description">
+                      Professor Fabio Nogueira, fazendo eu me apaixonar por Preventiva, um caso de amor e ódio 
+                    </p>
+
+                    <div class="name">Thais Costa Cortes </div>
+                  </div>
+                </div>
+              </swiper-slide>
+
+              <swiper-slide>
+                <div>
+                  <div class="wrapper">
+                    <p class="description">
+                      Realmente ele é nota 10 (Prof. Fabio Nogueira)
+                    </p>
+
+                    <div class="name">Leticia Vaz Fontenele</div>
+                  </div>
+                </div>
+              </swiper-slide>
+
+              <swiper-slide>
+                <div>
+                  <div class="wrapper">
+                    <p class="description">
+                      Excelente professor (Prof. Fabio Nogueira)
+                    </p>
+
+                    <div class="name">Elzyane Ferreira da Silva</div>
+                  </div>
+                </div>
+              </swiper-slide>
+
+              <swiper-slide>
+                <div>
+                  <div class="wrapper">
+                    <p class="description">
+                      Também gosto, o jeito de abordar é top para um tema tão cansativo (Prof. Fabio Nogueira)
+                    </p>
+
+                    <div class="name">Zuleimy</div>
+                  </div>
+                </div>
+              </swiper-slide>
+
+              <swiper-slide>
+                <div>
+                  <div class="wrapper">
+                    <p class="description">
+                      Aiiii, sim ele é demais mesmo (Prof. Fabio Nogueira)
+                    </p>
+
+                    <div class="name">Ju</div>
+                  </div>
+                </div>
+              </swiper-slide>
+
+              <swiper-slide>
+                <div>
+                  <div class="wrapper">
+                    <p class="description">
+                      Ele é sensacional todas as aulas foram maravilhosas!!!<br />
+                      Gratidão demais Prof. Fabio Nogueira
+                    </p>
+
+                    <div class="name">Tahiza Saraiva</div>
+                  </div>
+                </div>
+              </swiper-slide>
+
+              <swiper-slide>
+                <div>
+                  <div class="wrapper">
+                    <p class="description">
+                      As aulas de preventiva são show com o Prof. Fabio Nogueira
+                    </p>
+
+                    <div class="name">Lisseth</div>
+                  </div>
+                </div>
+              </swiper-slide>
+
+              <swiper-slide>
+                <div>
+                  <div class="wrapper">
+                    <p class="description">
+                      Amém Vini, ah sua aula dos segredos foi top…como todas as aulas de todos os professores
+                    </p>
+
+                    <div class="name">Taciana Lopes Campos</div>
                   </div>
                 </div>
               </swiper-slide>
@@ -511,16 +510,18 @@
 </template>
 
 <script>
+
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/vue';
 
 export default {
-  name: "DiscursivaMaster",
+  name: "DiscursiveMaster",
+
   components: {
     Swiper,
     SwiperSlide
   },
-
+  
   setup() {
     return {
       modules: [Navigation, Pagination, Scrollbar, A11y],
@@ -539,9 +540,17 @@ export default {
       return `https://pay.herospark.com/discursiva-master-2023-1-80175`;
     },
 
+    discursiveMaster2023_2() {
+      return `https://pay.herospark.com/discursiva-master-2023-2-84345`;
+    },
+
     comboStrikeDiscursiveMaster2023_1() {
       return `https://pay.herospark.com/combo-discursiva-master-strike-80396`;
-    }
+    },
+
+    comboStrikeDiscursiveMaster2023_2() {
+      return `https://pay.herospark.com/combo-strike-discursiva-master-2023-2-84360`;
+    },
   }
 };
 </script>

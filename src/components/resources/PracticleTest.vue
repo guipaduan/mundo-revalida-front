@@ -1,16 +1,14 @@
 <template>
-    <main id="content">
-	  <div class="alignment">
-        <h1>Prova Prática em desenvolvimento</h1>
+  <main id="content">
+    <div class="alignment">
+      <h1>Prova Prática em desenvolvimento</h1>
     </div>
-  </main>    
+  </main>
 </template>
 
 <script>
-export default {
-    name: 'DiscursiveMaster',
-    components: {
 
-    }
+export default {
+  name: 'DiscursiveMaster',
 }
 </script>
