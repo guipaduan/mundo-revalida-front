@@ -497,20 +497,19 @@
 
           <div class="swiper_carousel component_testimonial_carousel">
             <swiper
-              :modules="modules"
+              :modules='modules'
               :loop='true'
-              :slides-per-view='4'
               :pagination="{
                 clickable: true,
-                dynamicBullets: true,
-                dynamicMainBullets: 3
               }"
               :breakpoints="{
                 0: {
-                  slidesPerView: 1
+                  slidesPerView: 1,
+                  slidesPerGroup: 1
                 },
                 1200: {
-                  slidesPerView: 4
+                  slidesPerView: 4,
+                  slidesPerGroup: 4
                 }
               }"
             >

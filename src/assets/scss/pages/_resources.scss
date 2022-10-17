@@ -74,24 +74,4 @@
 			margin: 0 0 15px;
 		}
 	}
-
-	.component_testimonial_carousel {
-		.swiper,
-		.swiper-container {
-			.swiper-pagination {
-				width: 82px !important;
-				padding: 0;
-				transform: translateX(15px);
-
-				@include max_breakpoint(xl) {
-					left: 50%;
-					transform: translateX(-50%);
-				}
-
-				.swiper-pagination-bullet {
-					transform: translateX(-39px);
-				}
-			}
-		}
-	}
 }
