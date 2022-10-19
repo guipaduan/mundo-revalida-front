@@ -8,10 +8,10 @@
 			
 			<div class="navbar">
 				<ul>
-					<li><a href="/#courses">Cursos</a></li>
-					<li><a href="/#resources">Recursos</a></li>
-					<li><a href="/#testimonials">Depoimentos</a></li>
-					<li><router-link to="/contato">Contato</router-link></li>
+					<li><router-link :to="{name: 'home', hash: '#courses'}">Cursos</router-link></li>
+					<li><router-link :to="{name: 'home', hash: '#resources'}">Recursos</router-link></li>
+					<li><router-link :to="{name: 'home', hash: '#testemonial'}">Depoimentos</router-link></li>
+					<li><router-link :to="{name: 'contact'}">Contato</router-link></li>
 				</ul>
 			</div>
 	
@@ -45,11 +45,16 @@ export default {
 	name: 'StructureFooter',
 	props: {
 	
-	}
+	},
+
+	computed: {
+    	isHomeUrl() {
+      		return this.$route.path == '/';
+    	}
+  }
 }
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-
 </style>

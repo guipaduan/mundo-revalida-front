@@ -26,6 +26,6 @@ export default {
     Testimonial,
     Doubts,
     About,
-  }
+  },
 }
 </script>

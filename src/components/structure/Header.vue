@@ -22,34 +22,29 @@
               <a href="javascript:void(0)" v-if="!isHomeUrl">Cursos</a>
               <ul v-if="!isHomeUrl">
                 <li>
-                  <router-link :to="{name: 'strikeCourse'}">Strike</router-link>
+                  <router-link :to="{name: 'strikeCourse', hash: '#topo'}">Strike</router-link>
                 </li>
                 <li>
-                  <router-link :to="{name: 'discursiveMasterCourse'}">Discursive Master</router-link>
+                  <router-link :to="{name: 'discursiveMasterCourse', hash: '#topo'}">Discursiva Master</router-link>
                 </li>
                 <li>
-                  <router-link :to="{name: 'practicusIntensiveCourse'}">Practicus Intensive</router-link>
+                  <router-link :to="{name: 'practicusIntensiveCourse', hash: '#topo'}">Practicus Intensive</router-link>
                 </li>
                 <li>
-                  <router-link :to="{name: 'practicusPresencialCourse'}">Practicus Presencial</router-link>
+                  <router-link :to="{name: 'practicusPresencialCourse', hash: '#topo'}">Practicus Presencial</router-link>
                 </li>
                 <li>
-                  <router-link :to="{name: 'combos'}">Combos</router-link>
+                  <router-link :to="{name: 'combos', hash: '#topo'}">Combos</router-link>
                 </li>
               </ul>
             </li>
 
-            <li>
-              <a href="/#resources" v-if="isHomeUrl">Recursos</a>
-              <a href="javascript:void(0)" v-if="!isHomeUrl">Recursos</a>
-              <ul v-if="!isHomeUrl">
-                <li>
-                  <router-link :to="{name: 'resourceDiscursiveTest'}">Prova Discursiva</router-link>
-                </li>
-                <li>
-                  <router-link :to="{name: 'resourcePracticleTest'}">Prova Prática</router-link>
-                </li>
-              </ul>
+            <li v-if="isHomeUrl">
+              <a href="/#resources" >Recursos</a>
+            </li>
+
+            <li v-if="!isHomeUrl">
+              <router-link :to="{name: 'resources'}">Recursos</router-link>
             </li>
             <li>
               <router-link :to="{name: 'contact'}">Contato</router-link>
@@ -96,12 +91,6 @@ export default {
   },
 
   mounted() {
-    this.$nextTick(() => {
-      console.log(this.$route.hash);
-      const el = document.querySelector('#topo');
-      console.log(el);
-      el && el.scrollIntoView();
-    })
   },
 
   computed: {

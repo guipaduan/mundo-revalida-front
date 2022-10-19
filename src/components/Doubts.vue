@@ -5,7 +5,7 @@
 
     <ul>
       <li>
-        <div class="title">O que é o Revalida?</div>
+        <div class="title" @click="accordion($event)">O que é o Revalida?</div>
         <div class="description">
           <p>O Revalida subsidia o processo de revalidação dos diplomas de médicos que se formaram no exterior e querem atuar no Brasil. O exame é direcionado tanto aos estrangeiros formados em medicina fora do Brasil quanto aos brasileiros que se graduaram em outro país e querem exercer a profissão no país.</p>
           <p>O processo avaliativo é dividido em duas etapas eliminatórias aplicadas em momentos distintos, sendo elas:</p>
@@ -15,13 +15,13 @@
         </div>
       </li>
       <li>
-        <div class="title">Quantas vezes por ano tem o Revalida?</div>
+        <div class="title" @click="accordion($event)">Quantas vezes por ano tem o Revalida?</div>
         <div class="description">
           <p>O Revalida pelo INEP tem duas vezes por ano, sendo que o primeiro costuma se iniciar em março e finalizar em setembro, e o segundo se inicia em agosto e finaliza em março.</p>
         </div>
       </li>
       <li>
-        <div class="title">Como é a Primeira Fase do Revalida?</div>
+        <div class="title" @click="accordion($event)">Como é a Primeira Fase do Revalida?</div>
         <div class="description">
           <p>A Primeira Fase geralmente ocorre no domingo, e são duas provas no mesmo dia.</p>
           <p>No período da manhã, usualmente das 8 às 13 horas, ocorre a Prova Objetiva composta por 100 testes, sendo que cada questão vale um ponto.</p>
@@ -30,7 +30,7 @@
         </div>
       </li>
       <li>
-        <div class="title">Como é a Segunda Fase do Revalida?</div>
+        <div class="title" @click="accordion($event)">Como é a Segunda Fase do Revalida?</div>
         <div class="description">
           <p>A Segunda Fase é a prova de habilidades clínicas, com aplicação prática, composta por 10 estações simuladas, com duração de 10 minutos cada.</p>
           <p>A prova é dividida em cinco estações no sábado e cinco estações no domingo, sendo duas estações de cada grande área.</p>
@@ -60,14 +60,11 @@ export default {
   props: {
     
   },
-  mounted () {
-    if ( $('.component_doubts ul li').length ) {
-      $(document).on('click', '.component_doubts ul li .title', function() {
-        
-        $(this).closest('.component_doubts ul li .title').toggleClass('active')
-        $(this).next('.component_doubts ul li .description').toggle(250)
 
-      }); 
+  methods: {
+    accordion(element) {
+      $(element.target).closest('.component_doubts ul li .title').toggleClass('active')
+      $(element.target).next('.component_doubts ul li .description').toggle(250)
     }
   }
 }

@@ -2,6 +2,31 @@
 	position: relative;
 	display: block;
 
+	.logotipo {
+		max-width: 620px;
+		display: block;
+		margin: 0 auto 35px;
+
+		@include max_breakpoint(xl) {
+			max-width: 320px;
+		}
+
+		img {
+			width: 100%;
+			display: block;
+		}
+
+		& + .description {
+			font-size: 26px;
+			line-height: 42px;
+
+			@include max_breakpoint(xl) {
+				font-size: 16px;
+				line-height: 28px;
+			}
+		}
+	}
+
 	.alignment {
 		&:first-child {
 			
@@ -32,18 +57,6 @@
 		margin: 100px 0 0;
 		display: block;
 
-		&:first-child {
-			.description {
-				font-size: 26px;
-				line-height: 42px;
-		
-				@include max_breakpoint(xl) {
-					font-size: 16px;
-					line-height: 28px;
-				}
-			}
-		}
-
 		& > h1 {
 			text-align: center;
 			line-height: 48px;
@@ -59,26 +72,6 @@
 			text-align: center;
 			display: block;
 			margin: 0 0 15px;
-		}
-	}
-
-	.component_testimonial_carousel {
-		.swiper,
-		.swiper-container {
-			.swiper-pagination {
-				width: 82px !important;
-				padding: 0;
-				transform: translateX(15px);
-
-				@include max_breakpoint(xl) {
-					left: 50%;
-					transform: translateX(-50%);
-				}
-
-				.swiper-pagination-bullet {
-					transform: translateX(-39px);
-				}
-			}
 		}
 	}
 }

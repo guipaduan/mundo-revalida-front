@@ -113,7 +113,7 @@
                 </div>
               </div>
       
-              <a href="" class="global_cta">Compre aqui</a>
+              <a :href="strike2023_2" target="_blank" class="global_cta">Compre aqui</a>
             </li>
           </ul>
         </div>
@@ -293,7 +293,7 @@
                     <span>R$ 928,00</span>
                   </div>
       
-                  <a href="" class="global_cta">Compre agora</a>
+                  <a :href="comboStrikeDiscursiveMaster2023_2" target="_blank" class="global_cta">Compre agora</a>
                 </li>
               </ul>
             </li>
@@ -331,19 +331,27 @@ export default {
 
   mounted() {
     this.$nextTick(() => {
-      const el = document.querySelector('#topo');
-      el && el.scrollIntoView();
+        const el = document.querySelector('#topo');
+        el && el.scrollIntoView();
     })
   },
 
   computed: {
     strike2023_1() {
-      return `https://pay.herospark.com/practicus-intensive-2023-2-81585`;
+      return `https://pay.herospark.com/strike-2023-1-80176`;
+    },
+
+    strike2023_2() {
+      return `https://pay.herospark.com/strike-2023-2-84351`;
     },
 
     comboStrikeDiscursiveMaster2023_1() {
       return `https://pay.herospark.com/combo-discursiva-master-strike-80396`;
-    }
+    },
+
+    comboStrikeDiscursiveMaster2023_2() {
+      return `https://pay.herospark.com/combo-strike-discursiva-master-2023-2-84360`;
+    },
   }
 };
 </script>

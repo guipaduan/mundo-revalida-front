@@ -1,9 +1,9 @@
 <template>
   <main id="content">
     <div class="alignment">
-        <h1>Prova Discursiva em desenvolvimento</h1>
+      <h1>Prova Discursiva em desenvolvimento</h1>
     </div>
-  </main>    
+  </main>
 </template>
 
 <script>
