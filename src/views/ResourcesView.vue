@@ -68,7 +68,7 @@
                 Analisamos minuciosamente todos os seus vídeos,<br />
                 e buscamos trechos verbalizados, e ações<br />
                 que constam no gabarito mas que muitas vezes<br />
-                não foram pontuados! E Contamos com nossa expertise<br />
+                não foram pontuados! E contamos com nossa expertise<br />
                 para achar até mesmo trechos que não são óbvios,<br />
                 mas que muitas vezes cabem recurso!
               </p>
