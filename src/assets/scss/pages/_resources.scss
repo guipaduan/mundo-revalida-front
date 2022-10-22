@@ -73,5 +73,28 @@
 			display: block;
 			margin: 0 0 15px;
 		}
+
+		.features {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-evenly;
+
+			& > div {
+				display: block;
+
+				@include max_breakpoint(xl) {
+					width: 100%;
+					margin: 100px 0 0;
+
+					&:first-child {
+						margin-top: 0;
+					}
+				}
+
+				h1 {
+					text-align: center;
+				}
+			}
+		}
 	}
 }

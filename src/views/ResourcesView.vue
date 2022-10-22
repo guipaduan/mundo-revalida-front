@@ -9,7 +9,7 @@
         <div class="description richeditor">
           <p>
             Nós somos pioneiros em elaboração de recursos, e contamos com a experiência de milhares de recursos já realizados!
-            Somos especialistas em recursos gerais e individuais, tanto para <strong>PRIMEIRA FASE</strong>, quanto para <strong>SEGUNDA FASE!</strong>
+            Somos especialistas em recursos gerais e individuais, tanto para<br /> <strong>PRIMEIRA FASE</strong>, quanto para <strong>SEGUNDA FASE!</strong>
           </p>
         </div>
       </section>
@@ -42,17 +42,38 @@
             Os recursos individuais são elaborados após a liberação da nota preliminar,<br />
             e eles visam aumentar sua nota a fim de alcançar a aprovação!
           </p>
+        </div>
+      </section>
 
-          <p>
-            Nos recursos da Prova Discursiva nós analisamos especificamente a sua prova, e buscamos com nossa<br />
-            expertise e com dados da literatura, formas de aumentar sua nota, sempre baseado no gabarito oficial!
-          </p>
+      <section>
+        <div class="features">
+          <div>
+            <h1>Prova Discursiva</h1>
 
-          <p>
-            Nos recursos da Prova Prática nós analisamos minuciosamente todos os seus vídeos, e buscamos trechos verbalizados,<br />
-            e ações que constam no gabarito mas que muitas vezes não foram pontuados! E contamos com nossa expertise para<br />
-            achar até mesmo trechos que não são óbvios, mas que muitas vezes cabem recurso!
-          </p>
+            <div class="description richeditor">
+              <p>
+                Analisamos minuciosamente a sua prova,<br />
+                e buscamos com nosso expertise e com dados da<br />
+                literatura, formas de aumentar sua nota,<br />
+                sempre baseado no gabarito oficial!
+              </p>
+            </div>
+          </div>
+
+          <div>
+            <h1>Prova Prática</h1>
+
+            <div class="description richeditor">
+              <p>
+                Analisamos minuciosamente todos os seus vídeos,<br />
+                e buscamos trechos verbalizados, e ações<br />
+                que constam no gabarito mas que muitas vezes<br />
+                não foram pontuados! E contamos com nossa expertise<br />
+                para achar até mesmo trechos que não são óbvios,<br />
+                mas que muitas vezes cabem recurso!
+              </p>
+            </div>
+          </div>
         </div>
       </section>
 
