@@ -81,7 +81,6 @@
 
 			& > div {
 				display: block;
-				padding: 0 25px;
 
 				@include max_breakpoint(xl) {
 					width: 100%;
