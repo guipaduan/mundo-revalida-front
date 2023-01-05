@@ -35,8 +35,7 @@
                 <li>+ de 60 aulas;</li>
                 <li>Mentoria Coletiva;</li>
                 <li>Simulados Discursivos;</li>
-                <li>Aula "O Segredo da Prova Discursiva";</li>
-                <li>Banco de Questões.</li>
+                <li>Aula "O Segredo da Prova Discursiva".</li>
               </ul>
             </div>
           </div>
