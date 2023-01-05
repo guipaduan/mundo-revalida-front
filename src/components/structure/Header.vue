@@ -46,14 +46,21 @@
             <li v-if="!isHomeUrl">
               <router-link :to="{name: 'resources'}">Recursos</router-link>
             </li>
+
             <li>
               <router-link :to="{name: 'contact'}">Contato</router-link>
             </li>
 
-            <li class="cta">
-              <div class="cta">
-                <a href="" class="global_cta">Login</a>
-              </div>
+            <li class="spacer">
+              Área do aluno
+            </li>
+
+            <li class="is_mobile">
+              <a href="https://mundo-revalida.herospark.co/" target="_blank">Cursos</a>
+            </li>
+
+            <li class="is_mobile">
+              <a href="https://grupommed.com.br/login" target="_blank">Banco de questões</a>
             </li>
 
             <li class="social">
@@ -76,7 +83,14 @@
           </ul>
         </div>
         
-        <a href="" class="global_cta">Login</a>
+        <div class="student_area">
+          <a href="javascript:void(0)" class="global_cta">Área do aluno</a>
+
+          <ul>
+            <li><a href="https://mundo-revalida.herospark.co/" target="_blank">Cursos</a></li>
+            <li><a href="https://grupommed.com.br/login" target="_blank">Banco de questões</a></li>
+          </ul>
+        </div>
       </div>
 
     </div>

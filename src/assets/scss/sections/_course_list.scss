@@ -44,8 +44,9 @@
 
 			.image {
 				width: 100%;
+				max-width: 295px;
 				display: block;
-				margin: 0 0 25px;
+				margin: 0 auto 25px;
 
 				img {
 					width: 100%;
@@ -78,9 +79,11 @@
 				font-size: 28px;
 				font-weight: 600;
 				text-transform: uppercase;
+				width: 100%;
+				max-width: 295px;
 				display: flex;
 				justify-content: flex-end;
-				margin: -20px 0 25px;
+				margin: -20px auto 25px;
 			}
 
 			.description {

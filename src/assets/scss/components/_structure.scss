@@ -78,10 +78,76 @@
 
 		.global_cta {
 			min-height: 40px;
+
+			@include max_breakpoint(xl) {
+				display: none;
+			}
+		}
+
+		.student_area {
+			position: relative;
 			margin: 0 0 0 35px;
 
 			@include max_breakpoint(xl) {
 				display: none;
+			}
+
+			&:hover {
+				.global_cta {
+					box-shadow: 0 20px 25px -10px rgba(0, 0, 0, 0.15);
+					transform: translateY(-1px);
+				}
+
+				ul {
+					visibility: visible;
+					opacity: 1;
+					margin: 15px 0 0;
+				}
+			}
+
+			ul {
+				position: absolute;
+				z-index: 5;
+				display: block;
+				width: 100%;
+				margin: 25px 0 0 0;
+				padding: 15px;
+				visibility: hidden;
+				opacity: 0;
+				box-shadow: 0 7px 25px -7px rgba(0, 0, 0, 0.25);
+				background: #fff;
+				transition: .15s all linear;
+
+				&:before {
+					content: '';
+					position: absolute;
+					top: -15px;
+					left: 0;
+					width: 100%;
+					height: 15px;
+					background-color: transparent;
+				}
+
+				li {
+					display: block;
+					margin: 25px 0 0;
+
+					&:first-child {
+						margin-top: 0;
+					}
+
+					a {
+						color: #000;
+						font-size: 16px;
+						text-transform: lowercase;
+						display: block;
+						transition: .15s all linear;
+
+						&:hover {
+							transform: translateY(-1px);
+						}
+					}
+				}
 			}
 		}
 
@@ -101,8 +167,10 @@
 				& > li {
 					margin: 0 15px;
 
+					&.spacer,
 					&.cta,
-					&.social {
+					&.social,
+					&.is_mobile {
 						display: none;
 					}
 
@@ -118,6 +186,15 @@
 						& > a {
 							transform: translateY(-1px);
 						}
+					}
+
+					&.spacer {
+						font-size: 15px;
+						text-transform: uppercase;
+						margin: 25px 0 0 !important;
+						padding: 15px 0 10px;
+						border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+						color: rgba(255, 255, 255, 0.35);
 					}
 
 					& > a {
@@ -287,8 +364,10 @@
 						transition: .15s all linear;
 
 						@include max_breakpoint(xl) {
+							&.spacer,
 							&.cta,
-							&.social {
+							&.social,
+							&.is_mobile {
 								display: block;
 							}
 
